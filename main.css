@@ -1,0 +1,141 @@
+body {
+    font-family: "Open Sans";
+    overflow-y: scroll;
+    background-color: #F6F6F6;
+    color: #303030;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    max-width: 700px;
+}
+
+.header {
+    width: 100%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 0px 0px 50px;
+}
+
+.menu {
+    display: block;
+    padding: 0;
+    z-index: 1;
+    font-size: 125%;
+    font-family: "Courier New";
+
+}
+
+.menu-line {
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px dotted #303030;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li::after {
+    display: block;
+    content: attr(data-title);
+    font-weight: bold;
+    height: 0px;
+    padding: 0px 25px;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+}
+a { color: #1a0dab}
+a:visited { color: #660199; }
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #282828;
+}
+
+a:hover {
+    color: #696969;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li.active a {
+    font-weight: bold;
+    color: black;
+}
+
+.content {
+    padding: 0px 0px 50px;
+}
+
+h1 {
+    font-size: 120%;
+    font-family: "Courier New";
+    margin-top: 50px;
+}
+
+.picture {
+    float: right;
+    max-width: 150px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 10px;
+    }
+
+    .header {
+        padding: 0px 0px 20px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .picture {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.circular_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 50px;
+   
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .circular_image img{
+    width:100%;
+  }
+
+  .my_ul {
+	list-style-type: "✪ ";
+}
+
+ul { margin: 0; }
