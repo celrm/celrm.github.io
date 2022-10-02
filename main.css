@@ -15,9 +15,14 @@ body {
 .header {
     width: 100%;
     text-align: left;
-    font-size: 200%;
+    font-size:200%;
     font-weight: bold;
     padding: 0px 0px 50px;
+}
+
+li {
+    margin: 5px;
+    padding: 0px;
 }
 
 .menu {
@@ -58,7 +63,7 @@ body {
     content: attr(data-title);
     font-weight: bold;
     height: 0px;
-    padding: 0px 25px;
+    padding: 0px 30px;
     color: transparent;
     overflow: hidden;
     visibility: hidden;
@@ -100,26 +105,6 @@ h1 {
     max-width: 150px;
     margin-left: 10px;
 }
-
-@media only screen and (max-width: 600px) {
-    .container {
-        padding-top: 10px;
-    }
-
-    .header {
-        padding: 0px 0px 20px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .picture {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
 .circular_image {
     width: 150px;
     height: 150px;
@@ -135,7 +120,40 @@ h1 {
   }
 
   .my_ul {
-	list-style-type: "✪ ";
+	list-style-type: "✪  ";
 }
 
 ul { margin: 0; }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 10px;
+        max-width: 500px;
+    }
+
+    h1 { margin-top: 25px; }
+    .header { padding: 0px 0px 25px; 
+    font-size: 175%; }
+    .menu { font-size: 100%; }
+    .menu li::after {
+        padding: 0px 15px;
+    }
+    .menu a {
+        padding: 10px 15px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .picture {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circular_image {
+        margin-right: 15px;
+        width: 75px;
+        height: 75px;
+    }
+}
