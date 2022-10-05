@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans";
+    font-family: "Poppins", "Open Sans";
     overflow-y: scroll;
     background-color: #F6F6F6;
     color: #303030;
@@ -22,7 +22,6 @@ li {
     padding: 0;
     z-index: 1;
     font-size: 125%;
-    /* font-family: "Courier New"; */
 
 }
 
@@ -91,7 +90,6 @@ a {
 
 h1 {
     font-size: 120%;
-    /* font-family: "Courier New"; */
     margin-top: 50px;
 }
 
@@ -120,9 +118,8 @@ h1 {
     width: 100%;
     text-align: left;
     font-size:200%;
-    font-weight: bold;
+    font-weight: 900;
     padding: 0px 0px 50px;
-    font-family: "Courier New";
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
