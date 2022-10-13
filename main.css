@@ -93,6 +93,10 @@ h1 {
     margin-top: 50px;
 }
 
+ul {
+    padding-left: 1.2em;
+}
+
 .picture {
     float: right;
     max-width: 150px;
@@ -169,4 +173,5 @@ ul { margin: 0; }
         width: 75px;
         height: 75px;
     }
+      
 }
