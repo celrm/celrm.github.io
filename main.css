@@ -113,10 +113,13 @@ ul {
     width:100%;
   }
 
-  .my_ul {
-	list-style-type: "✪  ";
-}
+  ul {
+    text-indent: 0px;
+  }
 
+.my_ul {
+    list-style-type: "✪ ";
+}
 
 .header {
     width: 100%;
@@ -141,7 +144,8 @@ ul { margin: 0; }
 
 @media only screen and (max-width: 600px) {
     .container {
-        padding-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         max-width: 500px;
     }
 
