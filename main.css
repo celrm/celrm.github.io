@@ -9,7 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
-    max-width: 700px;
+    max-width: 750px;
 }
 
 li {
@@ -106,7 +106,7 @@ ul {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 50px;
+    margin-right: 100px;
   }
   .circular_image img{
     width:100%;
