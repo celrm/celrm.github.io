@@ -10,6 +10,7 @@ body {
     margin-right: auto;
     padding-top: 60px;
     max-width: 750px;
+    text-align: justify;
 }
 
 li {
@@ -125,7 +126,7 @@ ul {
     text-align: left;
     font-size:200%;
     font-weight: 900;
-    padding: 0px 0px 50px;
+    padding: 0px 0px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
