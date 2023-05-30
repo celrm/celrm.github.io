@@ -172,3 +172,12 @@ ul { margin: 0; }
         height: 75px;
     }
 }
+
+.toggle {
+    padding-inline-start: .65em;
+}
+
+/* Indent toggle children */
+.toggle>details>summary {
+    margin-left: -.5em;
+}
