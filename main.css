@@ -19,6 +19,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
     padding-top: 60px;
     max-width: 750px;
     text-align: justify;
@@ -157,9 +158,8 @@ ul {
 
 ul { margin: 0; }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 650px) {
     .container {
-        padding: 20px;
         max-width: 500px;
         font-size: 85%;
     }
@@ -183,8 +183,8 @@ ul { margin: 0; }
     }
     .circular_image {
         margin-right: 25px;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 }
 
