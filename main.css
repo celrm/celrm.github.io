@@ -188,6 +188,9 @@ ul { margin: 0; }
 
 .toggle {
     padding-inline-start: .65em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 /* Indent toggle children */
