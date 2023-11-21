@@ -127,9 +127,9 @@ ul {
     margin: auto;
 }
 
-  ul {
-    text-indent: 0px;
-  }
+ul {
+   text-indent: 0px;
+}
 
 .my_ul {
     list-style-type: "✪ ";
@@ -174,8 +174,13 @@ ul { margin: 0; }
         margin-top: 20px;
     }
 
+    .picture {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .circular_image {
-        margin-right: 50px;
+        margin-right: 30px;
         width: 100px;
         height: 100px;
     }
