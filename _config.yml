@@ -1,0 +1,22 @@
+title: Celia Rubio-Madrigal
+author: Celia Rubio-Madrigal
+email: celia.rubio-madrigal@cispa.de
+
+description: >-
+  My name is Celia Rubio-Madrigal and I am a PhD student at CISPA Helmholtz Center for Information Security. 
+  I am interested in the theory of machine learning, with a recent focus on addressing the challenges of generalization in graph learning.
+url: "https://celrm.github.io"
+baseurl: ""
+keywords:  >-
+  Celia Rubio-Madrigal, Rubio-Madrigal, Celia Rubio Madrigal, Rubio Madrigal, 
+  Personal webpage, Research, Mathematics, Computer Science
+  Deep Learning, Machine Learning, Relational Machine Learning, Theory of Machine Learning, Theory of ML, Theory, ML, 
+  Graph Learning, Graph Neural Networks, GNNs, Generalization
+
+twitter_username: celiaru
+github_username:  celrm
+linkedin_username: celia-rubio-madrigal
+
+theme: minima
+include: ['_pages']
+exclude_from_nav: ['/404.html', '/feed.xml', '/assets/main.css']

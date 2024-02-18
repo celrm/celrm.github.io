@@ -1,0 +1,118 @@
+:root {
+    --body-font: "Figtree", "Open Sans";
+    --bold-font: "Figtree", "Open Sans";
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: lighter;
+    overflow-y: scroll;
+    color: #202020;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 60px;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.title {
+    font-family: var(--bold-font);
+    font-weight: bold;
+    font-size:200%;
+}
+
+.title a { color: #202020; }
+.title a:visited { color: #202020; }
+nav a:visited { color: #202020; }
+
+nav a.nav-button {
+    color: #202020;
+    text-decoration: none;
+    margin: 0px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+nav a.nav-button:hover {
+    background-color: #202020;
+    color: white;
+}
+
+a { 
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited { color: #660199; }
+a:hover { color: #696969; }
+
+h1 {
+    font-family: var(--bold-font);
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+h2 {
+    font-family: var(--bold-font);
+    font-weight: bold;
+    font-size: 110%;
+    margin-top: 20px;
+}
+
+.circular_image {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 500px;
+        font-size: 85%;
+    }
+
+    .title { 
+        padding: 0px 0px 25px; 
+        font-size: 165%; 
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    .circular_image {
+        margin-right: 30px;
+        width: 90px;
+        height: 90px;
+        padding: 7px;
+    }
+}
+
+.toggle {
+    padding-inline-start: .65em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Indent toggle children */
+.toggle>details>summary {
+    margin-left: -.5em;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 1em;
+}
+
+ul li {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}

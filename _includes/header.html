@@ -1,0 +1,30 @@
+<header>
+<div class="title" style="display: flex; justify-content: space-around; width: 100%; align-items: center;">
+    <div>
+        <div>Celia Rubio-Madrigal</div>
+        <div style="display: flex; justify-content: space-around; width: 100%; margin-top: 0.5em;">
+            <a href="mailto:{{ site.email }}" class="fa-solid  fa-square-envelope "></a>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="fa-brands fa-linkedin"></a>
+            <a href="https://github.com/{{ site.github_username }}" class="fa-brands fa-square-github"></a>
+        </div>
+    </div>
+    <img class="circular_image" src="/assets/images/profile.jpg"/>
+</div>
+
+<hr style="width: 100%; margin: 0; border: 0; border-top: 1px solid grey; margin-top: 0.5em; margin-bottom: 0.5em;">
+<nav style="display: flex;  flex-wrap: wrap; justify-content: space-around; padding: 0; margin: 0;">
+
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for tab in sorted_pages %}
+        {% if tab.title %}
+        <a class="nav-button" href="{{ tab.url }}" target="_self">
+            {% if tab.title == page.title %}<strong>{{ tab.title }}</strong>
+            {% else %}{{ tab.title }}{% endif %}
+        </a>
+        {% endif %}
+    {% endfor %}
+    </nav>
+    <hr style="width: 100%; margin: 0; border: 0; border-top: 1px solid grey; margin-top: 0.5em; margin-bottom: 0.5em;">
+
+    <br>
+</header>
