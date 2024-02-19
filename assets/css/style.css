@@ -1,13 +1,14 @@
 :root {
     --body-font: "Figtree", "Open Sans";
     --bold-font: "Figtree", "Open Sans";
+    --color-text: #202020;
 }
 
 body {
     font-family: var(--body-font);
-    font-weight: lighter;
+    font-weight: 300;
     overflow-y: scroll;
-    color: #202020;
+    color: var(--color-text);
 
     margin-left: auto;
     margin-right: auto;
@@ -17,28 +18,36 @@ body {
 }
 
 .title {
-    font-family: var(--bold-font);
-    font-weight: bold;
-    font-size:200%;
+    font-size:220%;
     margin-bottom: 25px;
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+    align-items: center;
 }
 
-.title a { color: #202020; }
-.title a:visited { color: #202020; }
-nav a:visited { color: #202020; }
+.title a { color: var(--color-text); }
+.title a:visited { color: var(--color-text); }
+nav a:visited { color: var(--color-text); }
 
 nav a.nav-button {
-    color: #202020;
+    color: var(--color-text);
+    font-weight: 300;
     text-decoration: none;
     margin: 0px 5px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid var(--color-text);
     padding: 5px;
 }
 
 nav a.nav-button:hover {
-    background-color: #202020;
+    background-color: var(--color-text);
     color: white;
+}
+
+footer {
+    margin-top: 3em;
+    font-size: 90%;
 }
 
 a { 
@@ -47,49 +56,74 @@ a {
 }
 
 a:visited { color: #660199; }
-a:hover { color: #696969; }
+a:hover { color: grey; }
 
 h1 {
     font-family: var(--bold-font);
-    font-weight: bold;
     font-size: 150%;
+    margin-top: 1.5em;
 }
 
 
 h2 {
     font-family: var(--bold-font);
-    font-weight: bold;
-    font-size: 110%;
-    margin-top: 2em;
+    font-size: 120%;
+    margin-top: 1.5em;
 }
 
 .circular_image {
     width: 145px;
     height: 145px;
     border-radius: 50%;
-    border: 1px solid grey;
+    border: 1px solid var(--color-text);
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+svg {
+    height: 1em;
+    overflow: visible;
+    vertical-align: middle;
+}
+
+svg path {
+    fill: none;
+    stroke: var(--color-text);
+}
+
+@media only screen and (max-width: 650px) {
     body {
-        max-width: 500px;
-        font-size: 85%;
+        font-size: 0.9rem;
     }
 
     .title { 
-        font-size: 165%; 
+        font-size: 195%; 
         margin-bottom: 20px;
+    }
+    nav a.nav-button {
+        font-size: 75%;
+        font-weight: 200;
     }
 
     h1 {
         margin-top: 20px;
+        font-size: 130%;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font-size: 100%;
     }
 
     .circular_image {
-        width: 90px;
-        height: 90px;
-        padding: 7px;
+        width: 80px;
+        height: 80px;
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .title { 
+        font-size: 175%; 
     }
 }
 
