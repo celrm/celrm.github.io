@@ -19,4 +19,3 @@ linkedin_username: celia-rubio-madrigal
 
 theme: minima
 include: ['_pages']
-exclude_from_nav: ['/404.html', '/feed.xml', '/assets/main.css']

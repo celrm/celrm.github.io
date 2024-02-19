@@ -6,7 +6,9 @@ permalink: /
 order: 1
 ---
 
-I am a PhD candidate at the [Relational ML Lab](https://relationalml.github.io), led by [Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/), at the CISPA Helmholtz Center for Information Security and the University of Saarland.
+I am a PhD candidate at the [Relational ML Lab](https://relationalml.github.io), supervised by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz/), at the CISPA Helmholtz Center for Information Security in Saarbrücken, Germany.
+
+I am interested in the theory of machine learning, with a recent focus on addressing the challenges of generalization in graph learning.
 
 ## Contact
 

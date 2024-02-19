@@ -12,7 +12,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    padding-top: 60px;
     max-width: 800px;
     text-align: justify;
 }
@@ -21,6 +20,7 @@ body {
     font-family: var(--bold-font);
     font-weight: bold;
     font-size:200%;
+    margin-bottom: 25px;
 }
 
 .title a { color: #202020; }
@@ -60,7 +60,7 @@ h2 {
     font-family: var(--bold-font);
     font-weight: bold;
     font-size: 110%;
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
 .circular_image {
@@ -78,8 +78,8 @@ h2 {
     }
 
     .title { 
-        padding: 0px 0px 25px; 
         font-size: 165%; 
+        margin-bottom: 20px;
     }
 
     h1 {
@@ -87,7 +87,6 @@ h2 {
     }
 
     .circular_image {
-        margin-right: 30px;
         width: 90px;
         height: 90px;
         padding: 7px;
