@@ -6,7 +6,7 @@ permalink: /news/
 order: 3
 ---
 
-This page presents key milestones in my life, arranged chronologically and grouped by academic period.
+This page chronologically outlines some milestones in my life, categorized by their academic period.
 
 While it mainly focuses on my professional accomplishments —such as awards, conferences, publications, and press appearances— it also contains other activities that have contributed to my personal growth, like my volunteer work at math olympiads and my music projects. 
 
@@ -24,7 +24,7 @@ You can also find my CV [here](/assets/RubioMadrigalCelia_cv.pdf).
     </span>
 {% endfor %}</div>
 
-  <ul>{% for item in milestone.details | sort: item.type %}
+  <ul>{% for item in milestone.details %}
     <li>{% for type in item.type %}
     {% if type == "work" %}{% assign fa = "fa-regular fa-bookmark" %}
     {% elsif type == "event" %}{% assign fa = "fa-regular fa-calendar" %}
