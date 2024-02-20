@@ -17,6 +17,7 @@
             $('a.abstract').click(function() {
                 $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
                 $(this).toggleClass('open');
+                $(this).blur();
             });
         });
     </script>
