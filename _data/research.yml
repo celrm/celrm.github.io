@@ -1,0 +1,22 @@
+
+- title: Rendering string diagrams with Haskell's Diagrams library
+  author_array: [Celia Rubio-Madrigal]
+  advisors: Jules Hedges
+  type: thesis
+  school: Master's thesis at the University of Strathclyde
+  year: 2023
+  url: /assets/RubioMadrigal_CS958_dissertation.pdf
+  abstract: "String diagrams are a graphical language used to represent any process that can be composed sequentially or run in parallel, which translates graphically to joining them horizontally or vertically. This project introduces a new Haskell-based tool for rendering string diagrams using the Diagrams library. The key innovation is storing the diagrams in binary space-partition trees, depending on their horizontal or vertical composition, and rendering them through recursive folding. This allows preserving locality principles and mirroring their mathematical definition. The recursion is achieved by maintaining a right trapezoidal shape for the diagram's outline as an invariant. The renderer supports adding semantics to diagrams to serve as a compiler, with an example for matrices given. It also provides a flexible interface for users to implement new monoidal categories and their diagrams' appearance. By comparing this tool to DisCoPy, the advantages of the new data structure are highlighted: the recursive rendering allows diagrams to be treated more mathematically as algebraic objects. This, in turn, can increase access to drawing string diagrams for applied category theory researchers."
+  code: https://github.com/celrm/stringdiagrams
+  img: rendering-string-diagrams.png
+
+- title: Analysis of a neural network for the identification of complex Boolean functions
+  author_array: [Celia Rubio-Madrigal]
+  advisors: Ismael Rodríguez Laguna, Daniel Loscos Barroso
+  type: thesis
+  school: Bachelor's thesis in Computer Science at Universidad Complutense de Madrid
+  year: 2022
+  url: https://hdl.handle.net/20.500.14352/3235
+  abstract: "The goal of this work is to propose a possible long-term strategy to address the P vs. NP problem, based on studying class P/poly and Boolean circuit complexity. The main peculiarity of our strategy is that it will try to attain theoretical knowledge though empirical means. To do this we will use neural networks, and we will analyze both their structure and their performance. With the knowledge obtained we can either confirm, support or refute our theoretical hypotheses; or even formulate new ones.On the one hand, we will formalize notions related to the repetitiveness of Boolean functions, and we will define metrics associated with them under the assumption that simpler functions are more repetitive. On the other hand, we will try to find patterns in the weights of a neural network trained with the truth tables of some Boolean functions, which classifies them according to the size of the minimum circuit that computes them. Finally, by training more neural networks, we will analyze how the identified patterns and repeatability metrics behave as classifiers when put against truth tables."
+  code: https://github.com/celrm/tfg
+  img: analysis-of-a-nn.png

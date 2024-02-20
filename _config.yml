@@ -17,6 +17,4 @@ twitter_username: celiaru
 github_username:  celrm
 linkedin_username: celia-rubio-madrigal
 
-theme: minima
 include: ['_pages']
-

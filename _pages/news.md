@@ -17,18 +17,20 @@ You can also find my CV [here](/assets/RubioMadrigalCelia_cv.pdf).
 ## {{ milestone.date }}
 
 {{ milestone.event | markdownify }}
+
 <div style="display: flex; flex-wrap: wrap;">
   {% for tag in milestone.tags %}
-    <span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; font-weight: 400;
-      vertical-align: middle; text-transform: uppercase; margin: 0px 10px 5px 0;">
-      {% include tag.svg %} {{ tag }}
+    <span class="tags"> 
+     <span class="fa-solid fa-tag"></span>
+     {{ tag }}
     </span>
   {% endfor %}
 </div>
 
-<ul>
+<ul style="list-style-type: none; padding-inline-start: 1em;">
 {% for item in milestone.details %}
-<li>{% for type in item.type %}
+<li style="margin-block-start: 1em; margin-block-end: 1em;">
+    {% for type in item.type %}
     {% if type == "work" %}{% assign fa = "fa-regular fa-bookmark" %}
     {% elsif type == "event" %}{% assign fa = "fa-regular fa-calendar" %}
     {% elsif type == "award" %}{% assign fa = "fa-regular fa-star" %}

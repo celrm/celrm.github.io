@@ -1,5 +1,5 @@
 - date: Oct 23 - present
-  event: PhD in Relational Machine Learning, supervised by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA Helmholtz Center for Information Security](https://www.cispa.de/en) in Saarbrücken, Germany.
+  event: PhD in [Relational Machine Learning](https://relationalml.github.io) supervised by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA Helmholtz Center for Information Security](https://www.cispa.de/en) in Saarbrücken, Germany.
   tags: 
     - "Research: Machine Learning, Graph Theory"
   details:
@@ -19,10 +19,10 @@
       event: Teaching Assistant for *CS310 Foundations of Artificial Intelligence* at the University of Strathclyde.
     - date: Apr 23
       type: [event]
-      event: Staff (IT expert) at the [EGMO'23](https://www.egmo.org/people/person933) in Slovenia.
+      event: Staff (IT expert) at the European Girls' Mathematical Olympiad ([EGMO'23](https://www.egmo.org/people/person933)) in Slovenia.
     - date: Jul 23
       type: [award, press]
-      event: Awarding ceremony for ”la Caixa” [fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794), presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html).
+      event: Awarding ceremony for [”la Caixa” fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html).
     - date: Mar 23
       type: [award]
       event: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
@@ -47,13 +47,13 @@
       event: LaTeX package [ddphonism](https://ctan.org/pkg/ddphonism) for twelve-tone music. Contained in TeXLive and MiKTeX (and Overleaf!).
     - date: Apr 22
       type: [code]
-      event: "[Southwestern Regional Contest](https://icpc.global/ICPCID/4PVDIHXXDRN9) (SWERC'22) participant in Italy."
+      event: "Southwestern Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9)) participant in Italy."
     - date: Apr 22
       type: [event]
-      event: Deputy Leader of the Spanish team at the [EGMO'22](https://www.egmo.org/people/person933) in Hungary.
+      event: Deputy Leader of the Spanish team at the European Girls' Mathematical Olympiad ([EGMO'22](https://www.egmo.org/people/person933)) in Hungary.
     - date: Sep 22
       type: [event]
-      event: "[9th Heidelberg Laureate Forum](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html) (HLF) young researcher."
+      event: "9th Heidelberg Laureate Forum ([HLF'22](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html)) young researcher."
     - date: Jul 21  
       type: [work]
       event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications*, with [David Martín de Diego](https://www.icmat.es/dmartin)."
@@ -65,10 +65,10 @@
       event: The Sci·Fdi journal has published my sci-fi short story [akesi li kama](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.pdf).
     - date: Aug 22
       type: [press]
-      event: The HLF Foundation has published an [interview](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) about me.
+      event: "[Personal interview](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) from the HLF Foundation."
     - date: Oct 22
       type: [press]
-      event: Tribuna Complutense has published an [interview](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) about me.
+      event: "[Personal interview](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) from Tribuna Complutense."
     - date: Aug 22
       type: [event, award]
       event: 6th Aula de Verano [Blas Cabrera](https://www.uimp.es/actualidad-uimp/la-uimp-y-el-ministerio-de-ciencia-e-innovacion-lanzan-la-vii-edicion-del-programa-de-becas-blas-cabrera.html) at Menéndez Pelayo International University (UIMP) for graduates with the best BSc records in the country.
@@ -82,7 +82,7 @@
   details:
     - date: Apr 17
       type: [event]
-      event: Member of the Spanish team at the [European Girls' Mathematical Olympiad](https://www.egmo.org/people/person933) (EGMO'17) in Switzerland.
+      event: Member of the Spanish team at the European Girls' Mathematical Olympiad ([EGMO'17](https://www.egmo.org/people/person933)) in Switzerland.
     - date: May 16
       type: [music]
       event: Music degree in the specialty of Recorder at Conservatorio Profesional de Música Arturo Soria.
