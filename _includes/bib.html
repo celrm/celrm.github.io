@@ -1,5 +1,5 @@
 <!-- _layouts/bib.html -->
-  <div class="row" style="margin-top: 30px;">
+  <div class="row">
         <div class="preview">
         {%- if entry.img -%}
           {% if entry.img contains '://' -%}
@@ -16,13 +16,13 @@
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
         {% if entry.url %}
-          <div class="title"><a href="{{entry.url}}"><b>{{entry.title}}</b></a></div>
+          <div class="title"><a href="{{entry.url}}">{{entry.title}}</a></div>
         {% elsif entry.doi %}
-          <div class="title"><a href="https://doi.org/{{entry.doi}}"><b>{{entry.title}}</b></a></div>
+          <div class="title"><a href="https://doi.org/{{entry.doi}}">{{entry.title}}</a></div>
         {% elsif entry.arXiv %}
-          <div class="title"><a href="https://arxiv.org/abs/{{entry.arXiv}}"><b>{{entry.title}}</b></a></div>
+          <div class="title"><a href="https://arxiv.org/abs/{{entry.arXiv}}">{{entry.title}}</a></div>
         {% else %}
-          <div class="title"><b>{{entry.title}}</b></div>
+          <div class="title">{{entry.title}}</div>
         {% endif %}
         <!-- Author -->
         <div class="author">
@@ -35,7 +35,7 @@
             {%- if forloop.last -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author == site.author -%}
-            <b>{{author}}</b>
+            <u>{{author}}</u>
           {%- else -%}
             {{author}}
           {%- endif -%}
@@ -82,7 +82,7 @@
 
 
           {%- if entry.abstract %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
