@@ -17,9 +17,12 @@
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for tab in sorted_pages %}
         {% if tab.title %}
+        {% if tab.title == page.title %}
+        <a class="nav-button open" href="{{ tab.url }}" target="_self">
+        {% else %}        
         <a class="nav-button" href="{{ tab.url }}" target="_self">
-            {% if tab.title == page.title %}<b>{{ tab.title }}</b>
-            {% else %}{{ tab.title }}{% endif %}
+        {% endif %}
+            {{ tab.title }}
         </a>
         {% endif %}
     {% endfor %}

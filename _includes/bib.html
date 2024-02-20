@@ -1,16 +1,16 @@
 <!-- _layouts/bib.html -->
   <div class="row">
         <div class="preview">
-        {%- if entry.img -%}
-          {% if entry.img contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.img }}">
+          {%- if entry.img -%}
+            {% if entry.img contains '://' -%}
+            <img src="{{ entry.img }}">
+            {%- else -%}
+              {%- assign entry_path = entry.img | prepend: './images/publications/' -%}
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ entry.img }}">
+            {%- endif -%}
           {%- else -%}
-            {%- assign entry_path = entry.img | prepend: './images/publications/' -%}
-            <img class="preview z-depth-1 rounded" src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ entry.img }}">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/default.png">
           {%- endif -%}
-        {%- else -%}
-        <img class="preview z-depth-1 rounded" src="{{ site.url }}{{ site.baseurl }}/assets/images/default.png">
-        {%- endif -%}
         </div>
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">

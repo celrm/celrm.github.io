@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Research
+titlealt: List of publications
 permalink: /research/
 order: 2
 ---
