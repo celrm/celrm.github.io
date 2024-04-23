@@ -10,12 +10,6 @@ I am a PhD candidate at the [Relational ML Lab](https://relationalml.github.io),
 
 You can find my CV [here](/assets/RubioMadrigalCelia_cv.pdf).
 
-## Contact
-
-Email: celia.rubio-madrigal {at} cispa {dot} de
-
-Office: Room 0.15, Im Oberen Werk 1, 66386 St. Ingbert, Germany.
-
 ## News
 
 {% for milestone in site.data.news.list %}

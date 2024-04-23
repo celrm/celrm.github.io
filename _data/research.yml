@@ -1,6 +1,6 @@
 papers:
   - title: Spectral Pruning Against Over-Squashing and Over-Smoothing
-    author_array: [Adarsh Jamadandi, Celia Rubio-Madrigal, Rebekka Burkholz]
+    author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
     type: article
     journal: Pre-print on arXiv
     year: 2024

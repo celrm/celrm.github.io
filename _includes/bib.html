@@ -34,7 +34,7 @@
             {%- if forloop.first == false -%},&nbsp;{%- endif -%}
             {%- if forloop.last -%}and&nbsp;{%- endif -%}
           {%- endif -%}
-          {%- if author == site.author -%}
+          {%- if author contains site.author -%}
             <u>{{author}}</u>
           {%- else -%}
             {{author}}

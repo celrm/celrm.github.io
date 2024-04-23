@@ -27,7 +27,7 @@ for legenditem in site.data.news.legend %}{% if type == legenditem.name
 %}<span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; 
 vertical-align: middle; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>{% endif %}{% endfor %}
 {% endfor %}
-  {% if item.new %}<strong>NEW! -</strong>{% endif %}
+  {% if item.new %}NEW! -{% endif %}
   {{ item.event | markdownify | remove: '<p>' | remove: '</p>' }}
 </li>
 {% endfor %}
