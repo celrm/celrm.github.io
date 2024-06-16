@@ -4,6 +4,10 @@ list:
     tags: 
       - "Research: Machine Learning, Graph Theory"
     details:
+      - date: June 2024
+        type: [event]
+        event: "Helmholtz AI Conference 2024: AI for Science ([HAICON'24](https://haicon24.de/)) to present our paper on [spectral pruning](https://arxiv.org/abs/2404.04612) and my research group's work on [improving GATs](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)."
+        new: true
       - date: April 2024
         type: [publication]
         event: "Pre-print on arXiv: [*Spectral Pruning Against Over-Squashing and Over-Smoothing*](https://arxiv.org/abs/2404.04612)."
