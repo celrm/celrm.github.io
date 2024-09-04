@@ -11,15 +11,6 @@ order: 3
 
 {{ milestone.event | markdownify }}
 
-<!-- <div style="display: flex; flex-wrap: wrap;">
-  {% for tag in milestone.tags %}
-    <span class="tags"> 
-     <span class="fa-solid fa-tag"></span>
-     {{ tag }}
-    </span>
-  {% endfor %}
-</div> -->
-
 <ul style="list-style-type: none; padding-inline-start: 1em;">
 {% for item in milestone.details %}
 <li style="margin-block-start: 1em; margin-block-end: 1em;">{% for type in item.type %}{% 

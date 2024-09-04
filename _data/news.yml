@@ -10,7 +10,7 @@ list:
         new: true
       - date: April 2024
         type: [publication]
-        event: "Pre-print on arXiv: [*Spectral Pruning Against Over-Squashing and Over-Smoothing*](https://arxiv.org/abs/2404.04612)."
+        event: "Pre-print on arXiv: [*Spectral Graph Pruning Against Over-Squashing and Over-Smoothing*](https://arxiv.org/abs/2404.04612)."
         new: true
       - date: April 2024
         type: [event, math]
@@ -28,18 +28,18 @@ list:
         type: [publication]
         event: "Pre-print on arXiv: [*Rendering string diagrams recursively*](https://arxiv.org/abs/2404.02679)."
         new: true
-      - date: January 2023
-        type: [work]
-        event: Teaching Assistant for *CS310 Foundations of Artificial Intelligence*.
+      - date: October 2023
+        type: [award]
+        event: Best Overall Performance Prize from the CIS Department at the University of Strathclyde.
       - date: July 2023
         type: [award, press]
         event: Awarding ceremony for [”la Caixa” fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html).
       - date: March 2023
         type: [award]
         event: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
-      - date: October 2023
-        type: [award]
-        event: Best Overall Performance Prize from the CIS Department at the University of Strathclyde.
+      - date: January 2023
+        type: [work]
+        event: Teaching Assistant for *CS310 Foundations of Artificial Intelligence*.
       - date: April 2023
         type: [event, math]
         event: "IT at [EGMO'23 Slovenia](https://www.egmo.org/people/person933)."
@@ -64,7 +64,7 @@ list:
         event: "ICPC Southwestern Europe Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9))."
       - date: July 2021  
         type: [work]
-        event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego."
+        event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video]](https://www.youtube.com/watch?v=_fYNNbpjrC0)"
       - date: September 2019
         type: [publication, math]
         event: "Four outreach articles in DIVULGAMAT: [Serialismo y matemáticas (I)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209:100-septiembre-19-serialismo-y-matematicas-i&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (II)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227:101-octubre-19-serialismo-y-matematicas-ii&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (III)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258:102-noviembre-19-serialismo-y-matematicas-iii&catid=67:ma-y-matemcas&directory=67), and [Re-escalando música](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273:103-diciembre-19-re-escalando-musica)."
@@ -72,7 +72,7 @@ list:
         type: [publication]
         event: Sci-fi short story [akesi li kama](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.pdf) published in the Sci·Fdi journal.
       - date: September 2022
-        type: [event,press]
+        type: [event, press]
         event: "9th Heidelberg Laureate Forum ([HLF'22](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html)) young researcher. Personal interviews from [the HLF Foundation](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) and [Tribuna Complutense](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) (front page!)."
       - date: August 2022
         type: [event, award]
