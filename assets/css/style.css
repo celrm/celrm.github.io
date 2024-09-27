@@ -1,6 +1,6 @@
 :root {
-    --body-font: "Figtree", "Open Sans";
-    --bold-font: "Figtree", "Open Sans";
+    --body-font: "Gill Sans Light", "Open Sans";
+    --bold-font: "Gill Sans Medium", "Open Sans";
     --color-text: #202020;
 }
 
@@ -18,12 +18,16 @@ body {
 
     h1, h2, h3, h4, h5, h6 {
         font-weight: 300;
+        font-family: var(--bold-font);
+        font-size: 125%;
+        text-transform: uppercase;
     }
 }
 
 .site-title {
-    font-size:220%;
-    /* font-weight: bold; */
+    font-size:200%;
+    font-family: var(--bold-font);
+    text-transform: uppercase;
     margin-bottom: 25px;
     display: flex; 
     justify-content: space-around; 
@@ -84,8 +88,8 @@ h2 {
 }
 
 .circular_image {
-    width: 145px;
-    height: 145px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     border: 1px solid var(--color-text);
     padding: 10px;
@@ -187,12 +191,13 @@ ol.bibliography {
         border-color: var(--color-text);
     }
     .conf.btn {
-        background-color: #1a0dab;
-        border: 1px solid #1a0dab;
-        color: #fff;
+        border: none;
+        /* background-color: var(--color-text); */
+        /* border: 1px solid var(--color-text); */
+        /* color: #fff; */
         pointer-events: none;
-        user-select: text;
-        cursor: text;
+        /* user-select: text;
+        cursor: text; */
         text-transform: none;
     }
     .yellow.btn {
@@ -265,8 +270,9 @@ ol.bibliography {
     ol.bibliography {
         font-size: 0.9rem;
         .preview {
-            width: 75px;
-            height: 75px;
+            width: 70px;
+            min-width: 70px;
+            aspect-ratio: 1 / 1;
             img {
                 width: 60px;
                 height: 60px;

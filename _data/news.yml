@@ -4,13 +4,13 @@ list:
     tags: 
       - "Research: Machine Learning, Graph Theory"
     details:
+      - date: September 2024
+        type: [publication]
+        event: "First-author paper accepted at NeurIPS! [*Spectral Graph Pruning Against Over-Squashing and Over-Smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
+        new: true
       - date: June 2024
         type: [event]
         event: "Helmholtz AI Conference 2024: AI for Science ([HAICON'24](https://haicon24.de/)) to present our paper on [spectral pruning](https://arxiv.org/abs/2404.04612) and my research group's work on [improving GATs](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)."
-        new: true
-      - date: April 2024
-        type: [publication]
-        event: "Pre-print on arXiv: [*Spectral Graph Pruning Against Over-Squashing and Over-Smoothing*](https://arxiv.org/abs/2404.04612)."
         new: true
       - date: April 2024
         type: [event, math]
@@ -64,7 +64,7 @@ list:
         event: "ICPC Southwestern Europe Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9))."
       - date: July 2021  
         type: [work]
-        event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video]](https://www.youtube.com/watch?v=_fYNNbpjrC0)"
+        event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video](https://www.youtube.com/watch?v=_fYNNbpjrC0)]"
       - date: September 2019
         type: [publication, math]
         event: "Four outreach articles in DIVULGAMAT: [Serialismo y matemáticas (I)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209:100-septiembre-19-serialismo-y-matematicas-i&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (II)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227:101-octubre-19-serialismo-y-matematicas-ii&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (III)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258:102-noviembre-19-serialismo-y-matematicas-iii&catid=67:ma-y-matemcas&directory=67), and [Re-escalando música](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273:103-diciembre-19-re-escalando-musica)."
