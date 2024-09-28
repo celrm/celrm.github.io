@@ -2,7 +2,7 @@ papers:
   - title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
     author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
     type: article
-    journal: Thirty-Eighth Conference on Neural Information Processing Systems (NeurIPS)
+    journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)
     year: 2024
     url: https://openreview.net/forum?id=EMkrwJY2de
     arxiv: 2404.04612
