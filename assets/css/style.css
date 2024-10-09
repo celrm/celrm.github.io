@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "Gill Sans Light";
+    src: url("/assets/fonts/GillSans/GillSansLight.otf") format("truetype");
+}
+@font-face {
+    font-family: "Gill Sans Medium";
+    src: url("/assets/fonts/GillSans/GillSansMedium.otf") format("truetype");
+}
+  
 :root {
-    --body-font: "Gill Sans Light", "Open Sans";
-    --bold-font: "Gill Sans Medium", "Open Sans";
+    --body-font: "Gill Sans Light", "Figtree", "Open Sans";
+    --bold-font: "Gill Sans Medium", "Figtree", "Open Sans";
     --color-text: #202020;
 }
 
@@ -243,10 +252,12 @@ ol.bibliography {
     .site-title { 
         font-size: 170%; 
         margin-bottom: 20px;
+        text-transform: none;
+        font-family: var(--bold-font);
     }
     nav a.nav-button {
         font-size: 85%;
-        font-weight: 200;
+        /* font-weight: 200; */
     }
     .btn {
         font-size: 75%;
