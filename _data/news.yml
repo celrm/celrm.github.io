@@ -1,24 +1,23 @@
 list:
   - date: 2023 - present
-    event: "PhD in [Relational Machine Learning](https://relationalml.github.io) supervised by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA Helmholtz Center for Information Security](https://www.cispa.de/en) in Saarbrücken, Germany."
+    description: "PhD in [Relational Machine Learning](https://relationalml.github.io) supervised by [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA Helmholtz Center for Information Security](https://www.cispa.de/en) in Saarbrücken, Germany."
     tags: 
       - "Research: Machine Learning, Graph Theory"
     details:
       - date: September 2024
         type: [publication]
-        event: "First-author paper accepted at NeurIPS! [*Spectral Graph Pruning Against Over-Squashing and Over-Smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
+        description: "First-author paper accepted at NeurIPS 2024: [*Spectral Graph Pruning Against Over-Squashing and Over-Smoothing*](https://openreview.net/forum?id=EMkrwJY2de). Also accepted WiML workshop paper: [*SoLAR: Surrogate Label Aware Rewiring*](https://openreview.net/forum?id=eT6zYrd1wl)."
         new: true
       - date: June 2024
         type: [event]
-        event: "Helmholtz AI Conference 2024: AI for Science ([HAICON'24](https://haicon24.de/)) to present our paper on [spectral pruning](https://arxiv.org/abs/2404.04612) and my research group's work on [improving GATs](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)."
+        description: "Helmholtz AI Conference 2024: AI for Science ([HAICON'24](https://haicon24.de/)) to present our paper on [spectral pruning](https://arxiv.org/abs/2404.04612) and my research group's work on [improving GATs](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)."
         new: true
       - date: April 2024
-        type: [event, math]
-        event: "IT at [European Girls' Mathematical Olympiad](https://www.egmo.org/people/person933/) (EGMO'24 Georgia)."
-        new: true
+        type: [math]
+        description: "IT at [EGMO'24 Georgia](https://www.egmo.org/people/person933)."
 
   - date: 2022 - 2023
-    event: "MSc in Advanced Computer Science with Artificial Intelligence at the University of Strathclyde in Glasgow, United Kingdom, fully funded by a [postgraduate fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) from ”la Caixa” Foundation."
+    description: "MSc in Advanced Computer Science with Artificial Intelligence at the University of Strathclyde in Glasgow, United Kingdom, fully funded by a [postgraduate fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) from ”la Caixa” Foundation."
     tags: 
       - Teaching Assistant
       - Math Olympiad (EGMO)
@@ -26,27 +25,26 @@ list:
     details:
       - date: April 2024
         type: [publication]
-        event: "Pre-print on arXiv: [*Rendering string diagrams recursively*](https://arxiv.org/abs/2404.02679)."
-        new: true
+        description: "Pre-print on arXiv based on my MSc thesis: [*Rendering string diagrams recursively*](https://arxiv.org/abs/2404.02679)."
       - date: October 2023
         type: [award]
-        event: Best Overall Performance Prize from the CIS Department at the University of Strathclyde.
+        description: Best Overall Performance Prize from the CIS Department at the University of Strathclyde.
       - date: July 2023
         type: [award, press]
-        event: Awarding ceremony for [”la Caixa” fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html).
+        description: Awarding ceremony for [”la Caixa” fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html).
+      - date: April 2023
+        type: [math]
+        description: "IT at [EGMO'23 Slovenia](https://www.egmo.org/people/person933)."
       - date: March 2023
         type: [award]
-        event: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
+        description: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
       - date: January 2023
         type: [work]
-        event: Teaching Assistant for *CS310 Foundations of Artificial Intelligence*.
-      - date: April 2023
-        type: [event, math]
-        event: "IT at [EGMO'23 Slovenia](https://www.egmo.org/people/person933)."
+        description: Teaching Assistant for *CS310 Foundations of Artificial Intelligence*.
 
 
   - date: 2017 - 2022
-    event: "Two Bachelor's degrees in Computer Science (BEng) and Mathematics (BSc) at Universidad Complutense de Madrid, Spain."
+    description: "Two Bachelor's degrees in Computer Science (BEng) and Mathematics (BSc) at Universidad Complutense de Madrid, Spain."
     tags: 
       - LaTeX
       - SWERC
@@ -56,34 +54,34 @@ list:
       - "Published: DivulgaMAT, Sci·Fdi"
       - "Press: HLF, Tribuna Complutense"
     details:
-      - date: August 2019
-        type: [code]
-        event: "LaTeX package ([ddphonism](https://ctan.org/pkg/ddphonism)) for twelve-tone music notation - you probably have it installed!"
-      - date: April 2022
-        type: [code]
-        event: "ICPC Southwestern Europe Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9))."
-      - date: July 2021  
-        type: [work]
-        event: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video](https://www.youtube.com/watch?v=_fYNNbpjrC0)]"
-      - date: September 2019
-        type: [publication, math]
-        event: "Four outreach articles in DIVULGAMAT: [Serialismo y matemáticas (I)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209:100-septiembre-19-serialismo-y-matematicas-i&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (II)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227:101-octubre-19-serialismo-y-matematicas-ii&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (III)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258:102-noviembre-19-serialismo-y-matematicas-iii&catid=67:ma-y-matemcas&directory=67), and [Re-escalando música](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273:103-diciembre-19-re-escalando-musica)."
-      - date: February 2022
-        type: [publication]
-        event: Sci-fi short story [akesi li kama](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.pdf) published in the Sci·Fdi journal.
       - date: September 2022
         type: [event, press]
-        event: "9th Heidelberg Laureate Forum ([HLF'22](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html)) young researcher. Personal interviews from [the HLF Foundation](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) and [Tribuna Complutense](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) (front page!)."
+        description: "9th Heidelberg Laureate Forum ([HLF'22](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html)) young researcher. Personal interviews from [the HLF Foundation](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) and [Tribuna Complutense](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) (front page!)."
       - date: August 2022
         type: [event, award]
-        event: 6th Aula de Verano [Blas Cabrera](https://www.uimp.es/actualidad-uimp/la-uimp-y-el-ministerio-de-ciencia-e-innovacion-lanzan-la-vii-edicion-del-programa-de-becas-blas-cabrera.html) at Menéndez Pelayo International University (UIMP) for graduates with the best BSc records in the country.
+        description: "6th Aula de Verano [Blas Cabrera](https://www.uimp.es/actualidad-uimp/la-uimp-y-el-ministerio-de-ciencia-e-innovacion-lanzan-la-vii-edicion-del-programa-de-becas-blas-cabrera.html) at Menéndez Pelayo International University (UIMP) for graduates with the best BSc records in the country."
       - date: April 2022
-        type: [event, math]
-        event: Deputy Leader of Spain at [EGMO'22 Hungary](https://www.egmo.org/people/person933).
+        type: [math]
+        description: "Deputy Leader of Spain at [EGMO'22 Hungary](https://www.egmo.org/people/person933)."
+      - date: April 2022
+        type: [code]
+        description: "ICPC Southwestern Europe Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9))."
+      - date: February 2022
+        type: [publication]
+        description: "Sci-fi short story [akesi li kama](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.pdf) published in the Sci·Fdi journal."
+      - date: July 2021  
+        type: [work]
+        description: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video](https://www.youtube.com/watch?v=_fYNNbpjrC0)]"
+      - date: September 2019
+        type: [publication, math]
+        description: "Four outreach articles in DIVULGAMAT: [Serialismo y matemáticas (I)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209:100-septiembre-19-serialismo-y-matematicas-i&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (II)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227:101-octubre-19-serialismo-y-matematicas-ii&catid=67:ma-y-matemcas&directory=67), [Serialismo y matemáticas (III)](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258:102-noviembre-19-serialismo-y-matematicas-iii&catid=67:ma-y-matemcas&directory=67), and [Re-escalando música](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273:103-diciembre-19-re-escalando-musica)."
+      - date: August 2019
+        type: [code]
+        description: "LaTeX package ([ddphonism](https://ctan.org/pkg/ddphonism)) for twelve-tone music notation - you probably have it installed!"
 
 
   - date: "past - 2017"
-    event: "High School of Excellence (IES San Mateo) with Honours."
+    description: "High School of Excellence (IES San Mateo) with Honours."
     tags: 
       - EGMO
       - Music Conservatory
@@ -91,13 +89,13 @@ list:
     details:
       - date: July 2017
         type: [award]
-        event: Premio Extraordinario de Bachillerato Comunidad de Madrid.
+        description: "Premio Extraordinario de Bachillerato Comunidad de Madrid."
+      - date: April 2017
+        type: [math]
+        description: "Member of the Spanish team at [European Girls' Mathematical Olympiad](https://www.egmo.org/people/person933/) (EGMO'17 Switzerland)."
       - date: May 2016
         type: [music]
-        event: Music degree in the specialty of Recorder at Conservatorio Profesional de Música Arturo Soria.
-      - date: April 2017
-        type: [event, math]
-        event: Member of the Spanish team at [EGMO'17 Switzerland](https://www.egmo.org/people/person933).
+        description: "Music degree in the specialty of Recorder at Conservatorio Profesional de Música Arturo Soria."
 
 legend:
   - name: publication

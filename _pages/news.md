@@ -9,7 +9,7 @@ order: 3
 
 ## {{ milestone.date }}
 
-{{ milestone.event | markdownify }}
+{{ milestone.description | markdownify }}
 
 <ul style="list-style-type: none; padding-inline-start: 1em;">
 {% for item in milestone.details %}
@@ -19,7 +19,7 @@ for legenditem in site.data.news.legend %}{% if type == legenditem.name
 vertical-align: middle; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>{% endif %}{% endfor %}
 {% endfor %}
   {% if item.new %}NEW! -{% endif %}
-  {{ item.event | markdownify | remove: '<p>' | remove: '</p>' }}
+  {{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}
 </li>
 {% endfor %}
 </ul>
