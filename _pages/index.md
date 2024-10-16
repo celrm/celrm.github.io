@@ -15,7 +15,7 @@ You can find my CV [here](/assets/RubioMadrigalCelia_cv.pdf).
 {% for milestone in site.data.news.list %}
 {% for item in milestone.details %}
 {% if item.new %}
-* {{ item.date }}: {{ item.event | markdownify | remove: '<p>' | remove: '</p>' }}
+* {{ item.date }}: {{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}
 {% endif %}
 {% endfor %}
 {% endfor %}
