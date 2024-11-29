@@ -252,7 +252,7 @@ ol.bibliography {
     .site-title { 
         font-size: 170%; 
         margin-bottom: 20px;
-        text-transform: none;
+        /* text-transform: none; */
         font-family: var(--bold-font);
     }
     nav a.nav-button {
@@ -288,6 +288,7 @@ ol.bibliography {
                 width: 60px;
                 height: 60px;
             }
+            display: none;
         }    
     }
 }
