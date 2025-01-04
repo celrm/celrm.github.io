@@ -1,44 +1,44 @@
-papers:
-  - title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
-    author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
-    type: article
-    journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)
-    year: 2024
-    url: https://openreview.net/forum?id=EMkrwJY2de
-    arxiv: 2404.04612
-    abstract: "Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets."
-    code: https://github.com/relationalml/spectralpruningbraess
-    img: spectral-pruning.png
-    categories: [cs.LG, eess.SP]
+list:
+- title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
+  author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
+  type: article
+  journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)
+  year: 2024
+  url: https://openreview.net/forum?id=EMkrwJY2de
+  arxiv: 2404.04612
+  abstract: "Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets."
+  code: https://github.com/relationalml/spectralpruningbraess
+  img: spectral-pruning.png
+  poster: Spectral_Pruning__poster_NeurIPS24.pdf
+  categories: [cs.LG, eess.SP]
 
-  - title: Rendering string diagrams recursively
-    author_array: [Celia Rubio-Madrigal, Jules Hedges]
-    type: article
-    journal: Pre-print on arXiv
-    year: 2024
-    url: https://arxiv.org/pdf/2404.02679
-    arxiv: 2404.02679
-    abstract: "String diagrams are a graphical language used to represent processes that can be composed sequentially or in parallel, which correspond graphically to horizontal or vertical juxtaposition. In this paper we demonstrate how to compute the layout of a string diagram by folding over its algebraic representation in terms of sequential and parallel composition operators. The algebraic representation can be seen as a term of a free monoidal category or a proof tree for a small fragment of linear logic. This contrasts to existing non-compositional approaches that use graph layout techniques. The key innovation is storing the diagrams in binary space-partition trees, maintaining a right-trapezoidal shape for the diagram's outline as an invariant. We provide an implementation in Haskell, using an existing denotational graphics library called Diagrams. Our renderer also supports adding semantics to diagrams to serve as a compiler, with matrix algebra used as an example."
-    code: https://github.com/celrm/stringdiagrams
-    img: rendering-string-diagrams.png
-    categories: [math.CT, cs.CG]
+- title: Rendering string diagrams recursively
+  author_array: [Celia Rubio-Madrigal, Jules Hedges]
+  type: article
+  journal: Pre-print on arXiv
+  year: 2024
+  url: https://arxiv.org/pdf/2404.02679
+  arxiv: 2404.02679
+  abstract: "String diagrams are a graphical language used to represent processes that can be composed sequentially or in parallel, which correspond graphically to horizontal or vertical juxtaposition. In this paper we demonstrate how to compute the layout of a string diagram by folding over its algebraic representation in terms of sequential and parallel composition operators. The algebraic representation can be seen as a term of a free monoidal category or a proof tree for a small fragment of linear logic. This contrasts to existing non-compositional approaches that use graph layout techniques. The key innovation is storing the diagrams in binary space-partition trees, maintaining a right-trapezoidal shape for the diagram's outline as an invariant. We provide an implementation in Haskell, using an existing denotational graphics library called Diagrams. Our renderer also supports adding semantics to diagrams to serve as a compiler, with matrix algebra used as an example."
+  code: https://github.com/celrm/stringdiagrams
+  img: rendering-string-diagrams.png
+  categories: [math.CT, cs.CG]
 
-  - title: Analysis of a neural network for the identification of complex Boolean functions
-    author_array: [Celia Rubio-Madrigal]
-    advisors: Ismael Rodríguez Laguna, Daniel Loscos Barroso
-    type: thesis
-    school: Bachelor's thesis in Computer Science at Universidad Complutense de Madrid
-    year: 2022
-    url: https://hdl.handle.net/20.500.14352/3235
-    abstract: "The goal of this work is to propose a possible long-term strategy to address the P vs. NP problem, based on studying class P/poly and Boolean circuit complexity. The main peculiarity of our strategy is that it will try to attain theoretical knowledge though empirical means. To do this we will use neural networks, and we will analyze both their structure and their performance. With the knowledge obtained we can either confirm, support or refute our theoretical hypotheses; or even formulate new ones.On the one hand, we will formalize notions related to the repetitiveness of Boolean functions, and we will define metrics associated with them under the assumption that simpler functions are more repetitive. On the other hand, we will try to find patterns in the weights of a neural network trained with the truth tables of some Boolean functions, which classifies them according to the size of the minimum circuit that computes them. Finally, by training more neural networks, we will analyze how the identified patterns and repeatability metrics behave as classifiers when put against truth tables."
-    code: https://github.com/celrm/tfg
-    img: analysis-of-a-nn.png
-    categories: [cs.CC, cs.LG]
+- title: Analysis of a neural network for the identification of complex Boolean functions
+  author_array: [Celia Rubio-Madrigal]
+  advisors: Ismael Rodríguez Laguna, Daniel Loscos Barroso
+  type: thesis
+  school: Bachelor's thesis in Computer Science at Universidad Complutense de Madrid
+  year: 2022
+  url: https://hdl.handle.net/20.500.14352/3235
+  abstract: "The goal of this work is to propose a possible long-term strategy to address the P vs. NP problem, based on studying class P/poly and Boolean circuit complexity. The main peculiarity of our strategy is that it will try to attain theoretical knowledge though empirical means. To do this we will use neural networks, and we will analyze both their structure and their performance. With the knowledge obtained we can either confirm, support or refute our theoretical hypotheses; or even formulate new ones.On the one hand, we will formalize notions related to the repetitiveness of Boolean functions, and we will define metrics associated with them under the assumption that simpler functions are more repetitive. On the other hand, we will try to find patterns in the weights of a neural network trained with the truth tables of some Boolean functions, which classifies them according to the size of the minimum circuit that computes them. Finally, by training more neural networks, we will analyze how the identified patterns and repeatability metrics behave as classifiers when put against truth tables."
+  code: https://github.com/celrm/tfg
+  img: analysis-of-a-nn.png
+  categories: [cs.CC, cs.LG]
 
 categories:
-  - cs.LG: Machine Learning
-  # - cs.AI: Artificial Intelligence
-  - cs.CG: Computational Geometry
-  - math.CT: Category Theory
-  - cs.CC: Computational Complexity
-  - eess.SP: Signal Processing
+- cs.LG: Machine Learning
+- cs.CG: Computational Geometry
+- math.CT: Category Theory
+- cs.CC: Computational Complexity
+- eess.SP: Signal Processing

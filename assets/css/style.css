@@ -250,7 +250,7 @@ ol.bibliography {
     }
 
     .site-title { 
-        font-size: 170%; 
+        font-size: 150%; 
         margin-bottom: 20px;
         /* text-transform: none; */
         font-family: var(--bold-font);
@@ -295,7 +295,7 @@ ol.bibliography {
 
 @media only screen and (max-width: 500px) {
     .site-title { 
-        font-size: 175%; 
+        font-size: 150%; 
     }
 }
 

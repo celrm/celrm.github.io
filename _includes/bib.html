@@ -6,10 +6,10 @@
             <img src="{{ entry.img }}">
             {%- else -%}
               {%- assign entry_path = entry.img | prepend: './images/publications/' -%}
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ entry.img }}">
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ entry.img }}">
             {%- endif -%}
           {%- else -%}
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/images/default.png">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/default.png">
           {%- endif -%}
         </div>
         <!-- Entry bib key -->

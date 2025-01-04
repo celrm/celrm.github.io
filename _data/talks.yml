@@ -1,0 +1,23 @@
+list:
+- date: 11.12.24
+  type: [poster]
+  title: "Spectral graph pruning against over-squashing and over-smoothing"
+  event: "NeurIPS'24 in Vancouver (Canada). <br> [ELLIS Pre-NeurIPS Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken (Germany)."
+  pdf: Spectral_Pruning__poster_NeurIPS24.pdf
+- date: 10.12.24
+  type: [poster]
+  title: "GNNs getting ComFy: Community and feature similarity guided rewiring"
+  event: "Women in Machine Learning ([WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program)) workshop at NeurIPS'24 in Vancouver (Canada)."
+  url: https://sites.google.com/wimlworkshop.org/wiml-2024/program
+  pdf: ComFy__poster_NeurIPS24_workshop_.pdf
+- date: 14.06.24
+  type: [talk]
+  title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
+  event: "Helmholtz AI Conference 2024: AI for Science ([HAICON'24](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)) in Düsseldorf (Germany)."
+  url: https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a
+
+legend:
+- name: poster
+  icon: fa-solid fa-chalkboard-user
+- name: talk
+  icon: fa-solid fa-comment
