@@ -6,11 +6,11 @@ permalink: /research/
 order: 2
 ---
 
-Filter by category:
+<p id="filter">Filter by category:
 <select id="choosecategory">
   <option value="">All papers</option>{% for category in site.data.research.categories %}{% for attribute in category 
   %}<option value="{{ attribute[0] }}">{{ attribute[1] }}</option>{% endfor %}{% endfor %}
-</select>
+</select></p>
 
 <ol class="bibliography">
 {% for entry in site.data.research.list %}
@@ -44,22 +44,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # List of talks and posters
 
-<ul style="list-style-type: none; padding-inline-start: 0em;">
 {% for item in site.data.talks.list %}
-<li style="margin-block-start: 1em; margin-block-end: 1em;">{% for type in item.type %}{% 
-for legenditem in site.data.talks.legend %}{% 
-if type == legenditem.name 
-%}<span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; 
-vertical-align: middle; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>{% 
-endif %}{% 
-endfor %}
-{% endfor %}<div style="display: inline">
-{{ item.date }}:
-{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}  {% if item.pdf %}
-   [<a href="/assets/pdf/{{ item.pdf }}">Poster</a>]
-{% endif %}</div>
-<div style="padding-inline-start: 1.75em; "
->{{ item.event | markdownify | remove: '<p>' | remove: '</p>'  }}</div>
+
+{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+
+<ul style="list-style-type: none; padding-inline-start: 1em;">
+{% for event in item.events %}
+
+<li style="margin-block-start: 1em; margin-block-end: 1em;">
+{% for legenditem in site.data.talks.legend %}
+{% if event.type == legenditem.name %}<span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; vertical-align: bottom; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>
+    
+    {{ event.date }}: {{ event.place | markdownify | remove: '<p>' | remove: '</p>' }}
+    {% if event.url %}
+        [<a href="{{ event.url | prepend: legenditem.folder }}">{{ event.type | capitalize }}</a>]
+    {% endif %}
+    
+{% endif %}{% endfor %}
 </li>
+
 {% endfor %}
 </ul>
+{% endfor %}
