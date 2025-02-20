@@ -2,25 +2,27 @@ list:
 - date: 2023 - present
   description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
   details:
+  - date: June 2025
+    type: [event]
+    description: "Talk at the International Conference on Network Science 2025 (NetSci)."
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw)."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter. Also presented at the [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop NeurIPS'24."
     new: true
   - date: February 2025
     type: [event]
-    description: "Talk for Cohere4AI: [*Rewiring Graph Neural Networks: When less is more and structure matters*](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025)." 
+    description: "[Talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere4AI: *Rewiring Graph Neural Networks: When less is more and structure matters*." 
     new: true
   - date: December 2024
     type: [publication]
-    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de). Also accepted at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop: *GNNs getting ComFy*."
+    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
     new: true
   - date: June 2024
     type: [event]
     description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at Helmholtz AI Conference 2024: AI for Science (HAICON)."
     new: true
   - type: [leisure]
-    # date: April 2023
-    description: "IT/staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Slovenia'23, Georgia'24, Kosovo'25."
+    description: "IT staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Kosovo'25, Georgia'24, Slovenia'23."
 
 - date: 2022 - 2023
   description: "MSc in Advanced Computer Science with Artificial Intelligence at the University of Strathclyde in Glasgow, United Kingdom, fully funded by a [postgraduate fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) from ”la Caixa” Foundation."

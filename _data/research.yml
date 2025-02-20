@@ -5,9 +5,11 @@ list:
   journal: Thirteenth International Conference on Learning Representations (ICLR)
   year: 2025
   url: https://openreview.net/forum?id=g6v09VxgFw
+  arxiv: 2502.04891
   abstract: "Maximizing the spectral gap through graph rewiring has been proposed to enhance the performance of message-passing graph neural networks (GNNs) by addressing over-squashing. However, as we show, minimizing the spectral gap can also improve generalization. To explain this, we analyze how rewiring can benefit GNNs within the context of stochastic block models. Since spectral gap optimization primarily influences community strength, it improves performance when the community structure aligns with node labels. Building on this insight, we propose three distinct rewiring strategies that explicitly target community structure, node labels, and their alignment: (a) community structure-based rewiring (ComMa), a more computationally efficient alternative to spectral gap optimization that achieves similar goals; (b) feature similarity-based rewiring (FeaSt), which focuses on maximizing global homophily; and (c) a hybrid approach (ComFy), which enhances local feature similarity while preserving community structure to optimize label-community alignment. Extensive experiments confirm the effectiveness of these strategies and support our theoretical insights."
+  code: https://github.com/relationalml/comfy
   img: gnns-getting-comfy.png
-  categories: [cs.LG, eess.SP]
+  categories: [cs.LG, cs.SI]
 
 - title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
   author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
@@ -20,7 +22,7 @@ list:
   code: https://github.com/relationalml/spectralpruningbraess
   img: spectral-pruning.png
   poster: Spectral_Pruning__poster_NeurIPS24.pdf
-  categories: [cs.LG, eess.SP]
+  categories: [cs.LG, cs.SI]
 
 - title: Rendering string diagrams recursively
   author_array: [Celia Rubio-Madrigal, Jules Hedges]
@@ -48,7 +50,7 @@ list:
 
 categories:
 - cs.LG: Machine Learning
+- cs.SI: Social and Information Networks
 - cs.CG: Computational Geometry
 - math.CT: Category Theory
 - cs.CC: Computational Complexity
-- eess.SP: Signal Processing

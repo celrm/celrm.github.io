@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-titlealt: List of publications
+titlealt: Publications
 permalink: /research/
 order: 2
 ---
@@ -41,28 +41,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-
-# List of talks and posters
-
-{% for item in site.data.talks.list %}
-
-{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
-
-<ul style="list-style-type: none; padding-inline-start: 1em;">
-{% for event in item.events %}
-
-<li style="margin-block-start: 1em; margin-block-end: 1em;">
-{% for legenditem in site.data.talks.legend %}
-{% if event.type == legenditem.name %}<span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; vertical-align: bottom; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>
-    
-    {{ event.date }}: {{ event.place | markdownify | remove: '<p>' | remove: '</p>' }}
-    {% if event.url %}
-        [<a href="{{ event.url | prepend: legenditem.folder }}">{{ event.type | capitalize }}</a>]
-    {% endif %}
-    
-{% endif %}{% endfor %}
-</li>
-
-{% endfor %}
-</ul>
-{% endfor %}
