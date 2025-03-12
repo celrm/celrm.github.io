@@ -11,11 +11,19 @@ order: 2
   <option value="">All events</option>{% for category in site.data.talks.legend %}<option value="{{ category.name }}">{{ category.name | capitalize }}s</option>{% endfor %}
 </select></p>
 
+<!-- <div style="height: 0.5em;"></div> -->
+
+
 {% for item in site.data.talks.list %}
+<ul id="bib-{{forloop.index}}" 
+style="list-style-type: none; padding-inline-start: 0em;" 
+categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+<li>{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+</ul>
 
-<ul id="bib-{{forloop.index}}" style="list-style-type: none; padding-inline-start: 0em;" categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last %},{% endunless %}{% endfor %}">
-
-{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}
+<ul id="bib-{{forloop.index}}-2" 
+style="list-style-type: none; padding-inline-start: 0em;" 
+categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last %},{% endunless %}{% endfor %}">
 
 {% for event in item.events %}
 

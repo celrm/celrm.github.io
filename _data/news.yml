@@ -4,14 +4,14 @@ list:
   details:
   - date: June 2025
     type: [event]
-    description: "Talk at the International Conference on Network Science 2025 (NetSci)."
+    description: "Lightning talk at the International Conference on Network Science (NetSci) in the Netherlands."
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter. Also presented at the [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop NeurIPS'24."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw), previously presented at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
     new: true
   - date: February 2025
     type: [event]
-    description: "[Talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere4AI: *Rewiring Graph Neural Networks: When less is more and structure matters*." 
+    description: "[Community talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere for AI. [[Video](https://youtu.be/fw8VBEBdWQY)]"
     new: true
   - date: December 2024
     type: [publication]
@@ -19,7 +19,7 @@ list:
     new: true
   - date: June 2024
     type: [event]
-    description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at Helmholtz AI Conference 2024: AI for Science (HAICON)."
+    description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at the Helmholtz AI Conference 2024: AI for Science (HAICON)."
     new: true
   - type: [leisure]
     description: "IT staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Kosovo'25, Georgia'24, Slovenia'23."

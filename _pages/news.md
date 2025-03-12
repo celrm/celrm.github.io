@@ -7,7 +7,7 @@ order: 3
 
 <p id="filter">Filter by category:
 <select id="choosenewscategory">
-  <option value="">All events</option>{% for category in site.data.news.legend %}<option value="{{ category.name }}">{{ category.name | capitalize }}{% unless category.name contains 'work' or category.name contains 'press' or category.name contains 'leisure' %}s{% endunless %}</option>{% endfor %}
+  <option value="">All news</option>{% for category in site.data.news.legend %}<option value="{{ category.name }}">{{ category.name | capitalize }}{% unless category.name contains 'work' or category.name contains 'press' or category.name contains 'leisure' %}s{% endunless %}</option>{% endfor %}
   </select></p>
 
 {% for milestone in site.data.news.list %}

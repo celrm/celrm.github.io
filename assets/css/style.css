@@ -44,6 +44,13 @@ body {
     width: 100%; 
     align-items: center;
     svg {font-size: 90%;}
+    svg { border: 1px solid var(--color-text); border-radius: 5px; padding: 0px; }
+    svg:hover { background-color: var(--color-text); color: white; }
+    /* img {        border-radius: 10px;
+        width: 100px;
+        height: 100px;
+    } */
+
 }
 
 .site-title a { color: var(--color-text); }
@@ -261,7 +268,7 @@ ol.bibliography {
         /* margin-bottom: 20px; */
         /* text-transform: none; */
         font-family: var(--bold-font);
-        img {margin-top: 15px;}
+        img {margin-top: 15px; margin-left: 15px;}
     }
     nav a.nav-button {
         font-size: 85%;
@@ -273,8 +280,8 @@ ol.bibliography {
     }
 
     .circular_image {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
         padding: 6px;
     }
 
@@ -347,4 +354,5 @@ hr {
     font-family: var(--body-font);
     margin-left: 5px;
     outline: none;
+    min-width: 200px;
   }
