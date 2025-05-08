@@ -15,7 +15,7 @@ My <a href="/research/" target="_self">research</a> addresses generalization cha
 I hold two degrees in Mathematics and Computer Science from Universidad Complutense de Madrid, and I received the prestigious [postgraduate fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) from la Caixa Foundation in 2022. This allowed me to study a master's at Strathclyde in Glasgow, UK, where I was awarded the Best Overall Performance Prize.
 I annually participate in organizing the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/person933/)) as part of the IT team. I was featured in the [Nova 111 Student List 2023](https://www.novatalent.com/111/spain/student-list/2023) (top 10 under 25 in Computer Science in Spain). I was selected to attend the [9th Heidelberg Laureate Forum](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) 2022, where I was also personally interviewed. Finally, I once published a LaTeX package, [ddphonism](https://ctan.org/pkg/ddphonism), which is included in MikTeX and the TeXLive Music bundle.
 
-You can also read my full [CV](/assets/pdf/RubioMadrigalCelia_cv.pdf), or see a <a href="/timeline/" target="_self">timeline</a> of my past activities. Feel free to write to me about: complex networks + ML, LaTeX/TikZ figures, mentoring & women in STEM, mathematics olympiads, and Baroque/early music (good taste).
+You can also read my full [CV](/assets/pdf/RubioMadrigalCelia_cv.pdf), or see a <a href="/timeline/" target="_self">timeline</a> of my past activities.
 
 ## News
 

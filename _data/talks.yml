@@ -1,6 +1,9 @@
 list:
-- title: "Rewiring Graph Neural Networks: When less is more and structure matters."
+- title: "Rewiring Graph Neural Networks: Less is more and structure matters."
   events: 
+  - place: "Research Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria."
+    date: 27.05.25
+    type: talk
   - place: "[Cohere For AI](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Community Talks."
     date: 13.02.25
     url: https://youtu.be/fw8VBEBdWQY
