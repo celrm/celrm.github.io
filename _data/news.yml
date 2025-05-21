@@ -4,7 +4,7 @@ list:
   details:
   - date: June 2025
     type: [event]
-    description: "Lightning talk at the International Conference on Network Science (NetSci) in the Netherlands."
+    description: "[Lightning talk](https://netsci2025.github.io/lightnings/thursday-lightnings/) at the International Conference on Network Science (NetSci) in the Netherlands."
     new: true
   - date: May 2025
     type: [event]

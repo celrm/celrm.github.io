@@ -18,19 +18,19 @@ list:
     date: 10.12.24
     url: ComFy__poster_NeurIPS24_workshop.pdf
     type: poster
-  - place: "[ELLIS Pre-NeurIPS Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
+  - place: "[ELLIS Pre-NeurIPS'24 Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
 - title: "Spectral graph pruning against over-squashing and over-smoothing."
   events: 
-  - place: "International Conference on Network Science (NetSci) in Maastricht, Netherlands."
-    date: "06.25"
+  - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) 2025 (NetSci) in Maastricht, Netherlands."
+    date: "05.06.25"
     type: talk
   - place: "NeurIPS'24 in Vancouver, Canada."
     date: 11.12.24
     url:  Spectral_Pruning__poster_NeurIPS24.pdf
     type: poster
-  - place: "[ELLIS Pre-NeurIPS Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
+  - place: "[ELLIS Pre-NeurIPS'24 Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
 - title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
