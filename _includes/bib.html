@@ -3,13 +3,13 @@
         <div class="preview">
           {%- if entry.img -%}
             {% if entry.img contains '://' -%}
-            <img src="{{ entry.img }}">
+            <img src="{{ entry.img }}" onclick="image(this)" style="cursor:pointer;">
             {%- else -%}
               {%- assign entry_path = entry.img | prepend: './images/publications/' -%}
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ entry.img }}">
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ entry.img }}" onclick="image(this)" style="cursor:pointer;">
             {%- endif -%}
           {%- else -%}
-          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/default.png">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/default.png" onclick="image(this)" style="cursor:pointer;">
           {%- endif -%}
         </div>
         <!-- Entry bib key -->

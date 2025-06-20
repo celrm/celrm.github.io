@@ -13,12 +13,34 @@ order: 2
 </select></p>
 
 <ol class="bibliography">
-{% for entry in site.data.research.list %}
+
+{% assign first_author_published = site.data.research.list | where_exp: "item", "item.preprint != true and item.first_author == true" %}
+{% assign coauthor_published = site.data.research.list | where_exp: "item", "item.preprint != true and item.first_author != true" %}
+{% assign preprints = site.data.research.list | where_exp: "item", "item.preprint == true" %}
+
+{% for entry in first_author_published %}
 <li>
 {% include bib.html %}
 </li>
 {% endfor %}
-</ol>
+
+{% if coauthor_published.size > 0 %}
+<h3>Co-authored</h3>
+{% for entry in coauthor_published %}
+<li>
+{% include bib.html %}
+</li>
+{% endfor %}
+{% endif %}
+
+{% if preprints.size > 0 %}
+<h3>Pre-prints</h3>
+{% for entry in preprints %}
+<li>
+{% include bib.html %}
+</li>
+{% endfor %}
+{% endif %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -40,4 +62,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+</script>
+
+<script>
+function image(img) {
+    window.open(img.src,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600px, height=600px, top=50px left=250px');
+}
 </script>
