@@ -1,41 +1,44 @@
 list:
-- title: "Rewiring Graph Neural Networks: Less is more and structure matters."
+- title: "Rewiring Graph Neural Networks: Less is more and structure matters. (Spectral pruning + ComFy)"
   events: 
-  - place: "Research Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria."
+  - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
     date: 27.05.25
     type: talk
-  - place: "[Cohere For AI](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Community Talks."
+  - place: "[Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) / Cohere For AI: Open Science Community Talks."
     date: 13.02.25
     url: https://youtu.be/fw8VBEBdWQY
     type: talk
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring."
   events: 
+  - place: "Workshop on Geometry, Topology, and Machine Learning (GTML) in Leipzig, Germany. Lightning talk."
+    date: 10-14.11.25
+    type: talk
   - place: "ICLR'25 in Singapore."
-    date: "26.04.25"
+    date: 26.04.25
     url: ComFy__poster_ICLR25.pdf
     type: poster
-  - place: "[Women in Machine Learning](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop (WiML) at NeurIPS'24 in Vancouver, Canada."
+  - place: "Workshop for [Women in Machine Learning](https://sites.google.com/wimlworkshop.org/wiml-2024/program) (WiML) at NeurIPS'24 in Vancouver, Canada."
     date: 10.12.24
     url: ComFy__poster_NeurIPS24_workshop.pdf
     type: poster
-  - place: "[ELLIS Pre-NeurIPS'24 Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
+  - place: "[ELLIS Pre-NeurIPS'24](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
 - title: "Spectral graph pruning against over-squashing and over-smoothing."
   events: 
-  - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) 2025 (NetSci) in Maastricht, Netherlands."
+  - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) (NetSci) in Maastricht, Netherlands. Lightning talk."
     date: "05.06.25"
     type: talk
   - place: "NeurIPS'24 in Vancouver, Canada."
     date: 11.12.24
     url:  Spectral_Pruning__poster_NeurIPS24.pdf
     type: poster
-  - place: "[ELLIS Pre-NeurIPS'24 Session](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
+  - place: "[ELLIS Pre-NeurIPS'24](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
 - title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
   events: 
-  - place: "[Helmholtz AI Conference](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) 2024: AI for Science (HAICON) in Düsseldorf, Germany."
+  - place: "[Helmholtz AI Conference](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a): AI for Science (HAICON) in Düsseldorf, Germany."
     type: talk
     url: https://vimeo.com/984759166
     date: 14.06.24

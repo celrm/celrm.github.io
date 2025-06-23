@@ -1,5 +1,29 @@
 list:
-- title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
+- title: "HAM: A hyperbolic step to regulate implicit bias"
+  author_array: [Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, Rebekka Burkholz]
+  type: article
+  journal: Pre-print on arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2506.02630
+  arxiv: "2506.02630"
+  abstract: "Understanding the implicit bias of optimization algorithms has become central to explaining the generalization behavior of deep learning models. For instance, the hyperbolic implicit bias induced by the overparameterization m ⊙ w—though effective in promoting sparsity—can result in a small effective learning rate, which slows down convergence. To overcome this obstacle, we propose HAM (Hyperbolic Aware Minimization), which alternates between an optimizer step and a new hyperbolic mirror step. We derive the Riemannian gradient flow for its combination with gradient descent, leading to improved convergence and a similar beneficial hyperbolic geometry as m ⊙ w for feature learning. We provide an interpretation of the the algorithm by relating it to natural gradient descent, and an exact characterization of its implicit bias for underdetermined linear regression. HAM's implicit bias consistently boosts performance —even of dense training, as we demonstrate in experiments across diverse tasks, including vision, graph and node classification, and large language model fine-tuning. HAM is especially effective in combination with different sparsification methods, improving upon the state of the art. The hyperbolic step requires minimal computational and memory overhead, it succeeds even with small batch sizes, and its implementation integrates smoothly with existing optimizers."
+  img: ham-hyperbolic-step.png
+  categories: [cs.LG]
+  preprint: true
+
+- title: "When shift happens - Confounding is to blame"
+  author_array: [Abbavaram Gowtham Reddy, Celia Rubio-Madrigal, Rebekka Burkholz, Krikamol Muandet]
+  type: article
+  journal: Pre-print on arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.21422
+  arxiv: 2505.21422
+  abstract: "Distribution shifts introduce uncertainty that undermines the robustness and generalization capabilities of machine learning models. While conventional wisdom suggests that learning causal-invariant representations enhances robustness to such shifts, recent empirical studies present a counterintuitive finding: (i) empirical risk minimization (ERM) can rival or even outperform state-of-the-art out-of-distribution (OOD) generalization methods, and (ii) its OOD generalization performance improves when all available covariates, not just causal ones, are utilized. Drawing on both empirical and theoretical evidence, we attribute this phenomenon to hidden confounding. Shifts in hidden confounding induce changes in data distributions that violate assumptions commonly made by existing OOD generalization approaches. Under such conditions, we prove that effective generalization requires learning environment-specific relationships, rather than relying solely on invariant ones. Furthermore, we show that models augmented with proxies for hidden confounders can mitigate the challenges posed by hidden confounding shifts. These findings offer new theoretical insights and practical guidance for designing robust OOD generalization algorithms and principled covariate selection strategies."
+  img: when-shift-happens.png
+  categories: [cs.LG]
+  preprint: true
+
+- title: "GNNs getting ComFy: Community and feature similarity guided rewiring"
   author_array: [Celia Rubio-Madrigal*, Adarsh Jamadandi*, Rebekka Burkholz]
   type: article
   journal: Thirteenth International Conference on Learning Representations (ICLR)
@@ -11,8 +35,9 @@ list:
   img: gnns-getting-comfy.png
   poster: ComFy__poster_ICLR25.pdf
   categories: [cs.LG, cs.SI]
+  first_author: true
 
-- title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
+- title: Spectral graph pruning against over-squashing and over-smoothing
   author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
   type: article
   journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)
@@ -24,6 +49,7 @@ list:
   img: spectral-pruning.png
   poster: Spectral_Pruning__poster_NeurIPS24.pdf
   categories: [cs.LG, cs.SI]
+  first_author: true
 
 - title: Rendering string diagrams recursively
   author_array: [Celia Rubio-Madrigal, Jules Hedges]
@@ -36,6 +62,7 @@ list:
   code: https://github.com/celrm/stringdiagrams
   img: rendering-string-diagrams.png
   categories: [math.CT, cs.CG]
+  preprint: true
 
 - title: Analysis of a neural network for the identification of complex Boolean functions
   author_array: [Celia Rubio-Madrigal]
@@ -48,6 +75,7 @@ list:
   code: https://github.com/celrm/tfg
   img: analysis-of-a-nn.png
   categories: [cs.CC, cs.LG]
+  preprint: true
 
 categories:
 - cs.LG: Machine Learning

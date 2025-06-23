@@ -13,11 +13,43 @@ order: 2
 </select></p>
 
 <ol class="bibliography">
-{% for entry in site.data.research.list %}
+
+{% assign not_preprints = site.data.research.list | where: "preprint", nil %}
+{% assign first_author_published = not_preprints | where: "first_author", true %}
+{% for entry in first_author_published %}
+{% unless entry.preprint %}
+<li>
+{% include bib.html %}
+</li>
+{% endunless %}
+{% endfor %}
+
+{% assign has_coauthors = false %}
+{% for entry in not_preprints %}
+  {% unless entry.first_author or entry.preprint %}
+    {% assign has_coauthors = true %}
+  {% endunless %}
+{% endfor %}
+{% if has_coauthors %}
+<h3>Co-authored</h3>
+{% for entry in not_preprints %}
+  {% unless entry.first_author or entry.preprint %}
+    <li>
+      {% include bib.html %}
+    </li>
+  {% endunless %}
+{% endfor %}
+{% endif %}
+
+{% assign preprints = site.data.research.list | where: "preprint", true %}
+{% if preprints.size > 0 %}
+<h3>Pre-prints</h3>
+{% for entry in preprints %}
 <li>
 {% include bib.html %}
 </li>
 {% endfor %}
+{% endif %}
 </ol>
 
 <script>
@@ -40,4 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+function image(img) {
+    window.open(img.src,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600px, height=600px, top=50px left=250px');
+}
 </script>

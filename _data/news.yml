@@ -2,13 +2,17 @@ list:
 - date: 2023 - present
   description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
   details:
+  - date: November 2025
+    type: [event]
+    description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop (GTML) in Leipzig."
+    new: true
   - date: June 2025
     type: [event]
-    description: "[Lightning talk](https://netsci2025.github.io/lightnings/thursday-lightnings/) at the International Conference on Network Science (NetSci) in the Netherlands."
+    description: "[Lightning talk](https://netsci2025.github.io/lightnings/thursday-lightnings/) at the International Conference on Network Science (NetSci) in Maastricht."
     new: true
   - date: May 2025
-    type: [event]
-    description: "Visit and talk at [TUWien ML Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Austria. Thank you to Thomas Gärtner for the kind invitation."
+    type: [event, work]
+    description: "Visit and talk at [TUWien ML](https://ml-tuw.github.io/ruml_seminar/) in Austria. Thank you to Thomas Gärtner for the kind invitation."
     new: true
   - date: April 2025
     type: [publication]
@@ -16,15 +20,14 @@ list:
     new: true
   - date: February 2025
     type: [event]
-    description: "[Talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere for AI. [[Video](https://youtu.be/fw8VBEBdWQY)]"
+    description: "[Talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere for AI / Cohere Labs. [[Video](https://youtu.be/fw8VBEBdWQY)]"
     new: true
   - date: December 2024
     type: [publication]
     description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
-    new: true
   - date: June 2024
     type: [event]
-    description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at the Helmholtz AI Conference 2024: AI for Science (HAICON)."
+    description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at the Helmholtz AI Conference 2024: AI for Science (HAICON) in Düsseldorf."
   - type: [leisure]
     description: "IT staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Kosovo'25, Georgia'24, Slovenia'23."
 
