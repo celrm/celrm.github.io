@@ -13,6 +13,9 @@ list:
   - place: "Workshop on Geometry, Topology, and Machine Learning (GTML) in Leipzig, Germany. Lightning talk."
     date: 10-14.11.25
     type: talk
+  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal."
+    date: 15.09.25
+    type: poster
   - place: "ICLR'25 in Singapore."
     date: 26.04.25
     url: ComFy__poster_ICLR25.pdf
@@ -26,6 +29,9 @@ list:
     type: poster 
 - title: "Spectral graph pruning against over-squashing and over-smoothing."
   events: 
+  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal."
+    date: 15.09.25
+    type: poster
   - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) (NetSci) in Maastricht, Netherlands. Lightning talk."
     date: "05.06.25"
     type: talk

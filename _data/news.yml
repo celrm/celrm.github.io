@@ -6,9 +6,13 @@ list:
     type: [event]
     description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop (GTML) in Leipzig."
     new: true
+  - date: September 2025
+    type: [event]
+    description: "Two posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto."
+    new: true
   - date: June 2025
     type: [event]
-    description: "[Lightning talk](https://netsci2025.github.io/lightnings/thursday-lightnings/) at the International Conference on Network Science (NetSci) in Maastricht."
+    description: "Lightning talk at the International Conference on Network Science ([NetSci]((https://netsci2025.github.io/lightnings/thursday-lightnings/))) in Maastricht."
     new: true
   - date: May 2025
     type: [event, work]
@@ -16,18 +20,18 @@ list:
     new: true
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw), previously presented at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Previously a poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
     new: true
   - date: February 2025
     type: [event]
-    description: "[Talk](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) for Cohere for AI / Cohere Labs. [[Video](https://youtu.be/fw8VBEBdWQY)]"
+    description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
     new: true
   - date: December 2024
     type: [publication]
     description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
   - date: June 2024
     type: [event]
-    description: "[Talk](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a) at the Helmholtz AI Conference 2024: AI for Science (HAICON) in Düsseldorf."
+    description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON]((https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a))) in Düsseldorf."
   - type: [leisure]
     description: "IT staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Kosovo'25, Georgia'24, Slovenia'23."
 
