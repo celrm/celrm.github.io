@@ -4,50 +4,62 @@ list:
   - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
     date: 27.05.25
     type: talk
+    event_name: tuwien25
   - place: "[Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) / Cohere For AI: Open Science Community Talks."
     date: 13.02.25
     url: https://youtu.be/fw8VBEBdWQY
     type: talk
+    event_name: 
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring."
   events: 
   - place: "Workshop on Geometry, Topology, and Machine Learning (GTML) in Leipzig, Germany. Lightning talk."
     date: 10-14.11.25
     type: talk
-  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal."
+    event_name: 
+  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) at ECML'25 in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
-    type: poster
+    type: talk
+    event_name: mlg25
   - place: "ICLR'25 in Singapore."
     date: 26.04.25
     url: ComFy__poster_ICLR25.pdf
     type: poster
+    event_name: iclr25
   - place: "Workshop for [Women in Machine Learning](https://sites.google.com/wimlworkshop.org/wiml-2024/program) (WiML) at NeurIPS'24 in Vancouver, Canada."
     date: 10.12.24
     url: ComFy__poster_NeurIPS24_workshop.pdf
     type: poster
+    event_name: wiml24
   - place: "[ELLIS Pre-NeurIPS'24](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
+    event_name: preneurips24
 - title: "Spectral graph pruning against over-squashing and over-smoothing."
   events: 
-  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal."
+  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
-    type: poster
+    type: talk
+    event_name: mlg25
   - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) (NetSci) in Maastricht, Netherlands. Lightning talk."
     date: "05.06.25"
     type: talk
+    event_name: netsci25
   - place: "NeurIPS'24 in Vancouver, Canada."
     date: 11.12.24
     url:  Spectral_Pruning__poster_NeurIPS24.pdf
     type: poster
+    event_name: neurips24
   - place: "[ELLIS Pre-NeurIPS'24](https://lacoco-lab.github.io/events/PreNeurIPS2024/) in Saarbrücken, Germany."
     date: 25.11.24
     type: poster 
+    event_name: preneurips24
 - title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
   events: 
   - place: "[Helmholtz AI Conference](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a): AI for Science (HAICON) in Düsseldorf, Germany."
     type: talk
     url: https://vimeo.com/984759166
     date: 14.06.24
+    event_name: haicon24
 
 legend:
 - name: talk

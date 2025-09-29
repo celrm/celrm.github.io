@@ -6,6 +6,8 @@ permalink: /talks/
 order: 2
 ---
 
+Click on some of the icons to see pictures from the events.
+
 <p id="filter">Filter by category:
 <select id="choosetalkcategory">
   <option value="">All events</option>{% for category in site.data.talks.legend %}<option value="{{ category.name }}">{{ category.name | capitalize }}s</option>{% endfor %}
@@ -30,9 +32,9 @@ categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last
 <li id="bib-{{forloop.parentloop.index}}-{{forloop.index}}"
  style="margin-block-start: 1em; margin-block-end: 1em; padding-inline-start: 1em;" categories="{{ event.type }}">
 {% for legenditem in site.data.talks.legend %}
-{% if event.type == legenditem.name %}<span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; vertical-align: bottom; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}"></span>
+{% if event.type == legenditem.name %}<span onclick="image2(this)"  style="{% if event.event_name %} cursor: pointer; {% endif %} border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; vertical-align: bottom; min-width: 13px; text-align: center;" class="{{ legenditem.icon }}">{% if event.event_name %}<img src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{ event.event_name }}.jpeg" alt="{{ event.event_name }}" style="display: none; ">{% endif %}</span>
     
-    {{ event.date }}: {{ event.place | markdownify | remove: '<p>' | remove: '</p>' }}
+<span>{{ event.date }}</span>: {{ event.place | markdownify | remove: '<p>' | remove: '</p>' }}
     {% if event.url %}
         [<a href="{{ event.url | prepend: legenditem.folder }}">{{ event.type | capitalize }}</a>]
     {% endif %}

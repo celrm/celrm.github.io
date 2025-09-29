@@ -6,6 +6,8 @@ permalink: /research/
 order: 2
 ---
 
+Click on the image previews for larger versions.
+
 <p id="filter">Filter by category:
 <select id="choosecategory">
   <option value="">All papers</option>{% for category in site.data.research.categories %}{% for attribute in category 
@@ -72,7 +74,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-function image(img) {
-    window.open(img.src,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600px, height=600px, top=50px left=250px');
-}
 </script>

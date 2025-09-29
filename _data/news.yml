@@ -2,39 +2,51 @@ list:
 - date: 2023 - present
   description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
   details:
+  - date: December 2025
+    type: [event]
+    description: "Poster at WiML @ NeurIPS'25."
+    new: true
   - date: November 2025
     type: [event]
     description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop (GTML) in Leipzig."
     new: true
   - date: September 2025
     type: [event]
-    description: "Two posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto."
+    description: "Two lightning talks and posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) @ ECML in Porto."
     new: true
+    event_name: mlg25
   - date: June 2025
     type: [event]
     description: "Lightning talk at the International Conference on Network Science ([NetSci]((https://netsci2025.github.io/lightnings/thursday-lightnings/))) in Maastricht."
     new: true
+    event_name: netsci25
   - date: May 2025
     type: [event, work]
     description: "Visit and talk at [TUWien ML](https://ml-tuw.github.io/ruml_seminar/) in Austria. Thank you to Thomas Gärtner for the kind invitation."
     new: true
+    event_name: tuwien25
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Previously a poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Previously a poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) @ NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
     new: true
+    event_name: iclr25
   - date: February 2025
     type: [event]
     description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
     new: true
   - date: December 2024
-    type: [publication]
     description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
+    type: [publication]
+    event_name: neurips24
   - date: June 2024
-    type: [event]
     description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON]((https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a))) in Düsseldorf."
+    type: [event]
+    event_name: haicon24
   - type: [leisure]
-    description: "IT staff at the European Girls' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): Kosovo'25, Georgia'24, Slovenia'23."
-
+    description: 'IT staff at the European Girls'' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): 
+    <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo25.jpeg" alt="egmo25" style="display: none; ">Kosovo''25</a>,
+    <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo24.jpeg" alt="egmo24" style="display: none; ">Georgia''24</a>,
+    <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo23.jpeg" alt="egmo23" style="display: none; ">Slovenia''23</a>.'
 - date: 2022 - 2023
   description: "MSc in Advanced Computer Science with Artificial Intelligence at the University of Strathclyde in Glasgow, United Kingdom, fully funded by a [postgraduate fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) from ”la Caixa” Foundation."
   details:
@@ -47,15 +59,18 @@ list:
   - date: July 2023
     type: [award, press]
     description: "Awarding ceremony for ”la Caixa” [fellowship](https://becarios.fundacionlacaixa.org/en/celia-rubio-madrigal-B005794) presided by the Kings of Spain. Personal interviews from national newspapers [El País](https://elpais.com/educacion/2023-07-13/veinteaneros-y-expertos-en-inteligencia-artificial-esta-bien-irnos-fuera-a-aprender-pero-que-revierta-en-espana.html), [El Plural](https://www.elplural.com/sociedad/matematica-inteligencia-artificial-becarios-posgrado-fundacion-caixa_313989102), and TV channel [Telemadrid](https://www.telemadrid.es/programas/camara-real/Camara-Real-16072023-2-2578562119--20230715093100.html)."
+    event_name: caixa23
   - date: March 2023
     type: [award]
     description: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
+    event_name: nova23
   - date: January 2023
     type: [work]
     description: "Teaching Assistant for *CS310 Foundations of Artificial Intelligence*."
   - date: September 2022
     type: [event, press]
     description: "9th Heidelberg Laureate Forum ([HLF'22](https://www.heidelberg-laureate-forum.org/forum/9th-hlf-2022.html)) young researcher. Personal interviews from the [HLF Foundation](https://scilogs.spektrum.de/hlf/hlff-spotlight-9th-hlf/) and [Tribuna Complutense](https://tribuna.ucm.es/news/celia-rubio-un-ejemplo-de-que-las-stem-no-son-cuestion-de-genero) (UCM [front page](https://web.archive.org/web/20221018173445/https://www.ucm.es/))."
+    event_name: hlf22
 
 - date: 2017 - 2022
   description: "Two Bachelor's degrees in Computer Science and Mathematics at Universidad Complutense de Madrid, Spain."
@@ -66,9 +81,11 @@ list:
   - date: April 2022
     type: [event]
     description: "Participated in ICPC Southwestern Europe Regional Contest ([SWERC'22](https://icpc.global/ICPCID/4PVDIHXXDRN9)) in Italy."
+    event_name: swerc22
   - date: April 2022
     type: [leisure]
     description: "Deputy Leader of Spain at [EGMO'22](https://www.egmo.org/people/person933) in Hungary."
+    event_name: egmo22
   - date: February 2022
     type: [leisure]
     description: "Sci-fi short story [*akesi li kama*](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.php) in the Sci·Fdi journal."

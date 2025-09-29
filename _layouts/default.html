@@ -21,3 +21,18 @@
   
 </body>
 </html>
+
+<script>
+function image(img) {
+  // given an image with an src, open a window with it
+    window.open(img.src,'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600px, height=600px, top=50px left=250px');
+}
+
+function image2(spann) {
+  // given a span containing an <img>, open a window with that image's src
+  var img = spann.querySelector('img');
+  if (img && img.src) {
+    window.open(img.src, 'targetWindow', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600px, height=600px, top=50px left=250px');
+  } 
+}
+</script>
