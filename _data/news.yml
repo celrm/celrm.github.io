@@ -8,11 +8,15 @@ list:
     new: true
   - date: November 2025
     type: [event]
-    description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop (GTML) in Leipzig."
+    description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig."
+    new: true
+  - date: October 2025
+    type: [event]
+    description: "Talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group."
     new: true
   - date: September 2025
     type: [event]
-    description: "Two lightning talks and posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) @ ECML in Porto."
+    description: "Two lightning talks and posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto."
     new: true
     event_name: mlg25
   - date: June 2025
@@ -94,7 +98,7 @@ list:
     description: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video](https://www.youtube.com/watch?v=_fYNNbpjrC0)]"
   - date: September 2019
     type: [publication]
-    description: "Four outreach articles in DIVULGAMAT: [*Serialismo y matemáticas (I)*](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209:100-septiembre-19-serialismo-y-matematicas-i&catid=67:ma-y-matemcas&directory=67), [*Serialismo y matemáticas (II)*](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227:101-octubre-19-serialismo-y-matematicas-ii&catid=67:ma-y-matemcas&directory=67), [*Serialismo y matemáticas (III)*](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258:102-noviembre-19-serialismo-y-matematicas-iii&catid=67:ma-y-matemcas&directory=67), and [*Re-escalando música*](http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273:103-diciembre-19-re-escalando-musica)."
+    description: "Four outreach articles in DIVULGAMAT: [*Serialismo y matemáticas (I)*](https://web.archive.org/web/20200808125114/http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209&directory=67), [*Serialismo y matemáticas (II)*](https://web.archive.org/web/20230208100644/https://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227&directory=67), [*Serialismo y matemáticas (III)*](https://web.archive.org/web/20240703234240/https://www.divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258&directory=67), and [*Re-escalando música*](https://web.archive.org/web/20240704095954/https://www.divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273&directory=67)."
   - date: August 2019
     type: [leisure]
     description: "LaTeX package [*ddphonism*](https://ctan.org/pkg/ddphonism) for twelve-tone music notation - you probably have it installed!"
