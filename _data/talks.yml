@@ -5,7 +5,7 @@ list:
     date: 02.12.25
     type: poster
     event_name: 
-- title: "Rewiring Graph Neural Networks: Less is more and structure matters. (Spectral pruning + ComFy)"
+- title: "Rewiring Graph Neural Networks: Less is more and structure matters."
   events: 
   - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
     date: 27.05.25
@@ -18,15 +18,15 @@ list:
     event_name: 
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring."
   events: 
-  - place: "Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. Invited talk."
-    date: 29.10.25
-    url:
-    type: talk
-    event_name:
   - place: "Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig, Germany. Lightning talk."
     date: 13.11.25
     type: talk
     event_name: 
+  - place: "Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group."
+    date: 29.10.25
+    url: https://youtu.be/L-EH9iys8gc
+    type: talk
+    event_name:
   - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
     type: talk
@@ -51,7 +51,7 @@ list:
     date: 15.09.25
     type: talk
     event_name: mlg25
-  - place: "[International Conference on Network Science](https://netsci2025.github.io/lightnings/thursday-lightnings/) (NetSci) in Maastricht, Netherlands. Lightning talk."
+  - place: "International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/)) in Maastricht, Netherlands. Lightning talk."
     date: "05.06.25"
     type: talk
     event_name: netsci25
@@ -66,7 +66,7 @@ list:
     event_name: preneurips24
 - title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
   events: 
-  - place: "[Helmholtz AI Conference](https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a): AI for Science (HAICON) in Düsseldorf, Germany."
+  - place: "[Helmholtz AI Conference](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a): AI for Science (HAICON) in Düsseldorf, Germany."
     type: talk
     url: https://vimeo.com/984759166
     date: 14.06.24

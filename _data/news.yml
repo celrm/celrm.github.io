@@ -1,6 +1,6 @@
 list:
 - date: 2023 - present
-  description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://sites.google.com/view/rebekkaburkholz) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
+  description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://scholar.google.com/citations?user=vkWBb2wAAAAJ) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
   details:
   - date: December 2025
     type: [event]
@@ -12,7 +12,7 @@ list:
     new: true
   - date: October 2025
     type: [event]
-    description: "Talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group."
+    description: "Talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. [[Video](https://youtu.be/L-EH9iys8gc)]"
     new: true
   - date: September 2025
     type: [event]
@@ -21,7 +21,7 @@ list:
     event_name: mlg25
   - date: June 2025
     type: [event]
-    description: "Lightning talk at the International Conference on Network Science ([NetSci]((https://netsci2025.github.io/lightnings/thursday-lightnings/))) in Maastricht."
+    description: "Lightning talk at the International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/)) in Maastricht."
     new: true
     event_name: netsci25
   - date: May 2025
@@ -37,13 +37,12 @@ list:
   - date: February 2025
     type: [event]
     description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
-    new: true
   - date: December 2024
     description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
     type: [publication]
     event_name: neurips24
   - date: June 2024
-    description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON]((https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a))) in Düsseldorf."
+    description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)) in Düsseldorf."
     type: [event]
     event_name: haicon24
   - type: [leisure]
@@ -66,7 +65,7 @@ list:
     event_name: caixa23
   - date: March 2023
     type: [award]
-    description: "[Nova 111 Student List](https://www.novatalent.com/111/spain/student-list/2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
+    description: "[Nova 111 Student List](https://www.novatalent.com/111-list/student-spain-2023) award —top 10 talents under 25 in the category of Computer Science in Spain."
     event_name: nova23
   - date: January 2023
     type: [work]
