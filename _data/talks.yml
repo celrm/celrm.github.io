@@ -4,7 +4,11 @@ list:
   - place: "Workshop for Women in Machine Learning ([WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program)) at NeurIPS'25 in San Diego, USA."
     date: 02.12.25
     type: poster
-    event_name: 
+    event_name: wiml25
+  - place: "[ELLIS Pre-NeurIPS'25](https://lacoco-lab.github.io/events/PreNeurIPS2025/) in Saarbrücken, Germany."
+    date: 26.11.25
+    type: poster 
+    event_name:
 - title: "Rewiring Graph Neural Networks: Less is more and structure matters."
   events: 
   - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
@@ -21,7 +25,7 @@ list:
   - place: "Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig, Germany. Lightning talk."
     date: 13.11.25
     type: talk
-    event_name: 
+    event_name: gtml25
   - place: "Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group."
     date: 29.10.25
     url: https://youtu.be/L-EH9iys8gc

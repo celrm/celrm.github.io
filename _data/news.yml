@@ -4,12 +4,14 @@ list:
   details:
   - date: December 2025
     type: [event]
-    description: "Poster at WiML @ NeurIPS'25."
+    description: "Poster at WiML @ NeurIPS'25: *Fixed Aggregation Features Can Rival GNNs*."
+    event_name: wiml25
     new: true
   - date: November 2025
     type: [event]
     description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig."
     new: true
+    event_name: gtml25
   - date: October 2025
     type: [event]
     description: "Talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. [[Video](https://youtu.be/L-EH9iys8gc)]"

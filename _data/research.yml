@@ -1,4 +1,15 @@
 list:
+- title: "Fixed Aggregation Features can rival GNNs."
+  author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
+  type: article
+  journal: Workshop for Women in Machine Learning (WiML) at NeurIPS
+  year: 2025
+  url: https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program
+  first_author: true
+  abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks -- often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
+  categories: [cs.LG, cs.SI]
+  img: fixed-aggregation-features.png
+
 - title: "HAM: A hyperbolic step to regulate implicit bias"
   author_array: [Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, Rebekka Burkholz]
   type: article
@@ -32,7 +43,7 @@ list:
   arxiv: 2502.04891
   abstract: "Maximizing the spectral gap through graph rewiring has been proposed to enhance the performance of message-passing graph neural networks (GNNs) by addressing over-squashing. However, as we show, minimizing the spectral gap can also improve generalization. To explain this, we analyze how rewiring can benefit GNNs within the context of stochastic block models. Since spectral gap optimization primarily influences community strength, it improves performance when the community structure aligns with node labels. Building on this insight, we propose three distinct rewiring strategies that explicitly target community structure, node labels, and their alignment: (a) community structure-based rewiring (ComMa), a more computationally efficient alternative to spectral gap optimization that achieves similar goals; (b) feature similarity-based rewiring (FeaSt), which focuses on maximizing global homophily; and (c) a hybrid approach (ComFy), which enhances local feature similarity while preserving community structure to optimize label-community alignment. Extensive experiments confirm the effectiveness of these strategies and support our theoretical insights."
   code: https://github.com/relationalml/comfy
-  img: gnns-getting-comfy.png
+  img: small-comfy.png
   poster: ComFy__poster_ICLR25.pdf
   categories: [cs.LG, cs.SI]
   first_author: true
@@ -46,7 +57,7 @@ list:
   arxiv: 2404.04612
   abstract: "Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets."
   code: https://github.com/relationalml/spectralpruningbraess
-  img: spectral-pruning.png
+  img: small-spectral.png
   poster: Spectral_Pruning__poster_NeurIPS24.pdf
   categories: [cs.LG, cs.SI]
   first_author: true
