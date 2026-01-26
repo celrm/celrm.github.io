@@ -1,40 +1,50 @@
 list:
-- title: "Fixed Aggregation Features can rival GNNs."
+
+- title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
+  author_array: [Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, Rebekka Burkholz]
+  type: article
+  journal: Fourteenth International Conference on Learning Representations (ICLR)
+  year: 2026
+  url: https://openreview.net/forum?id=XKB5Hu0ACY
+  arxiv: "2506.02630"
+  abstract: "Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance --even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art."
+  img: ham-hyperbolic-step.png
+  categories: [cs.LG]
+
+- title: "Predictive Sufficiency for OOD Generalization via Gradient Boosting"
+  author_array: [Abbavaram Gowtham Reddy, Rajeev Verma, Celia Rubio-Madrigal, Rebekka Burkholz, Krikamol Muandet]
+  type: article
+  journal: Fourteenth International Conference on Learning Representations (ICLR)
+  year: 2026
+  url: https://openreview.net/forum?id=1mQT8PXIy8
+  arxiv: 
+  abstract: "Out-of-distribution (OOD) generalization is a hallmark of robust and reliable machine learning systems. Recent work suggests that gradient boosting models such as CatBoost and XGBoost often show remarkable OOD performance on real-world tabular datasets, where hidden confounding shifts are a primary source of distribution shift. Prior work attributes boosting’s success to variance reduction, covariate selection, handling missing covariates, and connections to multicalibration. Complementary to prior work, we provide theoretical evidence that gradient boosting can be viewed as implicitly inferring latent environments induced by hidden confounding shifts and maximizing predictive performance conditional on those environments. To this end, we introduce an information-theoretic notion called $\alpha$-predictive sufficiency, and establish its connection to OOD generalization. We show that, under this framework, gradient boosting can be viewed as identifying suitable environments and producing predictors that satisfy $\alpha$-predictive sufficiency. We validate our theoretical findings through synthetic and real-world experiments."
+  img: predictive-sufficiency.png
+  categories: [cs.LG]
+
+- title: "When Shift Happens - Confounding Is to Blame"
+  author_array: [Abbavaram Gowtham Reddy, Celia Rubio-Madrigal, Rebekka Burkholz, Krikamol Muandet]
+  type: article
+  journal: Fourteenth International Conference on Learning Representations (ICLR)
+  year: 2026
+  url: https://openreview.net/forum?id=sFjxg8cyJS
+  arxiv: 2505.21422
+  abstract: "Distribution shifts introduce uncertainty that undermines the robustness and generalization capabilities of machine learning models. While conventional wisdom suggests that learning causal-invariant representations enhances robustness to such shifts, recent empirical studies present a counterintuitive finding: (i) empirical risk minimization (ERM) can rival or even outperform state-of-the-art out-of-distribution (OOD) generalization methods, and (ii) OOD generalization performance improves when all available covariates, including non-causal ones, are utilized. We present theoretical and empirical explanations that attribute this phenomenon to hidden confounding. Shifts in hidden confounding induce changes in data distributions that violate assumptions commonly made by existing approaches. Under such conditions, we prove that generalization requires learning environment-specific relationships, rather than relying solely on invariant ones. Furthermore, we explain why models augmented with non-causal but informative covariates can mitigate the challenges posed by hidden confounding shifts. These findings offer new theoretical insights and practical guidance, serving as a roadmap for future research on OOD generalization and principled covariate-selection strategies."
+  img: when-shift-happens.png
+  categories: [cs.LG]
+
+- title: "Fixed Aggregation Features Can Rival GNNs"
   author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
   type: article
   journal: Workshop for Women in Machine Learning (WiML) at NeurIPS
   year: 2025
   url: https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program
   first_author: true
-  abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks -- often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
+  abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks—often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
   categories: [cs.LG, cs.SI]
   img: fixed-aggregation-features.png
 
-- title: "HAM: A hyperbolic step to regulate implicit bias"
-  author_array: [Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, Rebekka Burkholz]
-  type: article
-  journal: Pre-print on arXiv
-  year: 2025
-  url: https://arxiv.org/abs/2506.02630
-  arxiv: "2506.02630"
-  abstract: "Understanding the implicit bias of optimization algorithms has become central to explaining the generalization behavior of deep learning models. For instance, the hyperbolic implicit bias induced by the overparameterization m ⊙ w—though effective in promoting sparsity—can result in a small effective learning rate, which slows down convergence. To overcome this obstacle, we propose HAM (Hyperbolic Aware Minimization), which alternates between an optimizer step and a new hyperbolic mirror step. We derive the Riemannian gradient flow for its combination with gradient descent, leading to improved convergence and a similar beneficial hyperbolic geometry as m ⊙ w for feature learning. We provide an interpretation of the the algorithm by relating it to natural gradient descent, and an exact characterization of its implicit bias for underdetermined linear regression. HAM's implicit bias consistently boosts performance —even of dense training, as we demonstrate in experiments across diverse tasks, including vision, graph and node classification, and large language model fine-tuning. HAM is especially effective in combination with different sparsification methods, improving upon the state of the art. The hyperbolic step requires minimal computational and memory overhead, it succeeds even with small batch sizes, and its implementation integrates smoothly with existing optimizers."
-  img: ham-hyperbolic-step.png
-  categories: [cs.LG]
-  preprint: true
-
-- title: "When shift happens - Confounding is to blame"
-  author_array: [Abbavaram Gowtham Reddy, Celia Rubio-Madrigal, Rebekka Burkholz, Krikamol Muandet]
-  type: article
-  journal: Pre-print on arXiv
-  year: 2025
-  url: https://arxiv.org/abs/2505.21422
-  arxiv: 2505.21422
-  abstract: "Distribution shifts introduce uncertainty that undermines the robustness and generalization capabilities of machine learning models. While conventional wisdom suggests that learning causal-invariant representations enhances robustness to such shifts, recent empirical studies present a counterintuitive finding: (i) empirical risk minimization (ERM) can rival or even outperform state-of-the-art out-of-distribution (OOD) generalization methods, and (ii) its OOD generalization performance improves when all available covariates, not just causal ones, are utilized. Drawing on both empirical and theoretical evidence, we attribute this phenomenon to hidden confounding. Shifts in hidden confounding induce changes in data distributions that violate assumptions commonly made by existing OOD generalization approaches. Under such conditions, we prove that effective generalization requires learning environment-specific relationships, rather than relying solely on invariant ones. Furthermore, we show that models augmented with proxies for hidden confounders can mitigate the challenges posed by hidden confounding shifts. These findings offer new theoretical insights and practical guidance for designing robust OOD generalization algorithms and principled covariate selection strategies."
-  img: when-shift-happens.png
-  categories: [cs.LG]
-  preprint: true
-
-- title: "GNNs getting ComFy: Community and feature similarity guided rewiring"
+- title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
   author_array: [Celia Rubio-Madrigal*, Adarsh Jamadandi*, Rebekka Burkholz]
   type: article
   journal: Thirteenth International Conference on Learning Representations (ICLR)
@@ -48,7 +58,7 @@ list:
   categories: [cs.LG, cs.SI]
   first_author: true
 
-- title: Spectral graph pruning against over-squashing and over-smoothing
+- title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
   author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
   type: article
   journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)

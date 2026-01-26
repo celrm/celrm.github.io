@@ -2,53 +2,61 @@ list:
 - date: 2023 - present
   description: "PhD at the [Relational ML Lab](https://relationalml.github.io), under the supervision of [Dr. Rebekka Burkholz](https://scholar.google.com/citations?user=vkWBb2wAAAAJ) at the [CISPA](https://www.cispa.de/en) Helmholtz Center for Information Security in Saarbrücken, Germany, and enrolled at Universität des Saarlandes."
   details:
+  - date: April 2026
+    type: [publication]
+    description: "Three co-authored papers at ICLR'26. Thanks to Gowtham, Rajeev, Krikamol, Tom, Advait, and Rebekka."
+    new: true
+  - date: March 2026
+    type: [event]
+    description: "Three Recent Spotlight posters, two as first-author, at the Conference on Parsimony and Learning ([CPAL](https://cpal.cc/tracks/#recent-spotlight-track-non-archival))."
+    new: true
   - date: December 2025
     type: [event]
-    description: "Poster at WiML @ NeurIPS'25: *Fixed Aggregation Features Can Rival GNNs*."
+    description: "Future work's poster at [WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) @ NeurIPS'25."
     event_name: wiml25
-    new: true
   - date: November 2025
     type: [event]
-    description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig."
+    description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025))."
     new: true
     event_name: gtml25
   - date: October 2025
     type: [event]
-    description: "Talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. [[Video](https://youtu.be/L-EH9iys8gc)]"
+    description: "Invited talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. [[Video](https://youtu.be/L-EH9iys8gc)]"
     new: true
   - date: September 2025
     type: [event]
-    description: "Two lightning talks and posters at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto."
+    description: "Two lightning talks at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/))."
     new: true
     event_name: mlg25
   - date: June 2025
     type: [event]
-    description: "Lightning talk at the International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/)) in Maastricht."
+    description: "Lightning talk at the International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/))."
     new: true
     event_name: netsci25
   - date: May 2025
-    type: [event, work]
-    description: "Visit and talk at [TUWien ML](https://ml-tuw.github.io/ruml_seminar/) in Austria. Thank you to Thomas Gärtner for the kind invitation."
+    type: [event]
+    description: "Visit and talk at [TUWien ML](https://ml-tuw.github.io/ruml_seminar/). Thank you to Thomas Gärtner for the kind invitation."
     new: true
     event_name: tuwien25
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Previously a poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) @ NeurIPS'24. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
     new: true
     event_name: iclr25
   - date: February 2025
     type: [event]
     description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
   - date: December 2024
-    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de)."
+    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de). Also, future work's poster presented at the [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop."
     type: [publication]
     event_name: neurips24
   - date: June 2024
-    description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)) in Düsseldorf."
+    description: "Talk at the Helmholtz AI Conference 2024: AI for Science ([HAICON](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a))."
     type: [event]
     event_name: haicon24
   - type: [leisure]
     description: 'IT staff at the European Girls'' Mathematical Olympiad ([EGMO](https://www.egmo.org/people/person933/)): 
+    France''26,
     <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo25.jpeg" alt="egmo25" style="display: none; ">Kosovo''25</a>,
     <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo24.jpeg" alt="egmo24" style="display: none; ">Georgia''24</a>,
     <a onclick="image2(this)"  style="cursor: pointer;"><img src="/assets/img/events/egmo23.jpeg" alt="egmo23" style="display: none; ">Slovenia''23</a>.'
