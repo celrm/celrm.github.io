@@ -10,6 +10,10 @@ list:
     type: [event]
     description: "Three Recent Spotlight posters, two as first-author, at the Conference on Parsimony and Learning ([CPAL](https://cpal.cc/tracks/#recent-spotlight-track-non-archival))."
     new: true
+  - date: March 2026
+    type: [leisure, work]
+    description: "Math olympiad trainer at the International EGMO Preparatory Seminar in Bonn."
+    new: true
   - date: December 2025
     type: [event]
     description: "Future work's poster at [WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) @ NeurIPS'25."
