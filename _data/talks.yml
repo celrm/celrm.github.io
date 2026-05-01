@@ -1,35 +1,48 @@
 list:
 - title: "Fixed aggregation features can rival GNNs"
   events: 
-  - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/tracks/#recent-spotlight-track-non-archival)), Recent Spotlight Track, in Tübingen, Germany."
+  - place: "ICML'26 in Seoul, South Korea."
+    date: 06.07.26
+    type: poster
+  - place: "Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid, Spain."
+    date: 08.06.26
+    type: poster 
+  - place: CISPA ML Seminar. Invited talk.
+    date: 20.05.26
+    type: talk
+  - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/posters/)), Recent Spotlight Track, in Tübingen, Germany."
     date: 23.03.26
     type: poster 
-    event_name:
+    event_name: cpal26
   - place: "Workshop for Women in Machine Learning ([WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program)) at NeurIPS'25 in San Diego, USA."
     date: 02.12.25
     type: poster
     event_name: wiml25
+    url: FAF__poster_NeurIPS25_workshop.pdf
   - place: "[ELLIS Pre-NeurIPS'25](https://lacoco-lab.github.io/events/PreNeurIPS2025/) in Saarbrücken, Germany."
     date: 26.11.25
     type: poster 
-    event_name:
 - title: "Rewiring Graph Neural Networks: Less is more and structure matters"
   events: 
   - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
     date: 27.05.25
     type: talk
     event_name: tuwien25
-  - place: "[Cohere For AI](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Open Science community talks."
+  - place: "[Cohere For AI](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Open Science community talk."
     date: 13.02.25
     url: https://youtu.be/fw8VBEBdWQY
     type: talk
     event_name: 
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring"
   events: 
-  - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/tracks/#recent-spotlight-track-non-archival)), Recent Spotlight Track, in Tübingen, Germany."
+  - place: "Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid, Spain."
+    date: 08.06.26
+    type: poster 
+    event_name: 
+  - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/posters/)), Recent Spotlight Track, in Tübingen, Germany."
     date: 23.03.26
     type: poster 
-    event_name:
+    event_name: cpal26
   - place: "Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig, Germany. Lightning talk."
     date: 13.11.25
     type: talk
@@ -38,7 +51,6 @@ list:
     date: 29.10.25
     url: https://youtu.be/L-EH9iys8gc
     type: talk
-    event_name:
   - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
     type: talk
@@ -76,8 +88,6 @@ list:
     date: 25.11.24
     type: poster 
     event_name: preneurips24
-- title: "Can GATs learn the degree to which node properties are determined by their neighborhood?"
-  events: 
   - place: "Helmholtz AI Conference: AI for Science ([HAICON](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)) in Düsseldorf, Germany."
     type: talk
     url: https://vimeo.com/984759166

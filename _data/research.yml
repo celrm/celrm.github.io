@@ -1,4 +1,16 @@
 list:
+- title: "Fixed Aggregation Features Can Rival GNNs"
+  author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
+  type: article
+  journal: Forty-third International Conference on Machine Learning (ICML)
+  year: 2026
+  url: https://openreview.net/forum?id=gSZhNPp103
+  arxiv: 2601.19449
+  first_author: true
+  abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks—often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
+  categories: [cs.ML, cs.CN]
+  img: fixed-aggregation-features.png
+  code: https://github.com/celrm/fixed-aggregation-features
 
 - title: "Hyperbolic Aware Minimization: Implicit Bias for Sparsity"
   author_array: [Tom Jacobs, Advait Gadhikar, Celia Rubio-Madrigal, Rebekka Burkholz]
@@ -33,19 +45,6 @@ list:
   img: when-shift-happens.png
   categories: [cs.ML]
 
-- title: "Fixed Aggregation Features Can Rival GNNs"
-  author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
-  type: article
-  journal: Workshop for Women in Machine Learning (WiML) at NeurIPS
-  year: 2025
-  url: https://arxiv.org/abs/2601.19449
-  arxiv: 2601.19449
-  first_author: true
-  abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks—often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
-  categories: [cs.ML, cs.CN]
-  img: fixed-aggregation-features.png
-  code: https://github.com/celrm/fixed-aggregation-features
-
 - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
   author_array: [Celia Rubio-Madrigal*, Adarsh Jamadandi*, Rebekka Burkholz]
   type: article
@@ -60,7 +59,7 @@ list:
   categories: [cs.ML, cs.CN]
   first_author: true
 
-- title: Spectral Graph Pruning Against Over-Squashing and Over-Smoothing
+- title: "Spectral Graph Pruning Against Over-Squashing and Over-Smoothing"
   author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
   type: article
   journal: Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS)
