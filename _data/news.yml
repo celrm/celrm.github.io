@@ -4,15 +4,15 @@ list:
   details:
   - date: September 2026
     type: [event,award]
-    description: "13th Heidelberg Laureate Forum ([HLF](https://www.heidelberg-laureate-forum.org/forum/13th-hlf-2026.html)) as a young researcher (again!)."
+    description: "13th Heidelberg Laureate Forum ([HLF](https://www.heidelberg-laureate-forum.org/forum/13th-hlf-2026.html)) as a young researcher (again)."
     new: true
   - date: July 2026
     type: [publication]
-    description: "First-author paper at ICML'26: [*Fixed Aggregation Features can rival GNNs*](https://openreview.net/forum?id=gSZhNPp103)."
+    description: "First-author paper at ICML'26: [*Fixed Aggregation Features can rival GNNs*](https://openreview.net/forum?id=gSZhNPp103) [[3](/research#bib-fixed-aggregation-features)], and two workshop posters at [GFM](/research#bib-linear-gcns) and [MemFM](/research#bib-prune-to-protect). I was also selected as a Gold Reviewer (25%)."
     new: true
   - date: June 2026
     type: [event]
-    description: "Two posters at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/))."
+    description: "An oral and a poster at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/))."
     new: true
     future: true
   - date: April 2026
@@ -31,7 +31,7 @@ list:
     event_name: egmocamp26
   - date: December 2025
     type: [event]
-    description: "Poster at [WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) @ NeurIPS'25."
+    description: "Poster at [WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) @ NeurIPS'25 [[3](/research#bib-fixed-aggregation-features)]."
     new: true
     event_name: wiml25
   - date: November 2025
@@ -59,13 +59,13 @@ list:
     event_name: tuwien25
   - date: April 2025
     type: [publication]
-    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw). Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
+    description: "First-author paper at ICLR'25: [*GNNs getting ComFy: Community and feature similarity guided rewiring*](https://openreview.net/forum?id=g6v09VxgFw) [[2](/research#bib-gnns-getting-comfy)]. Featured in the [TLDR AI](https://tldr.tech/ai/2025-02-11) newsletter."
     event_name: iclr25
   - date: February 2025
     type: [event]
     description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
   - date: December 2024
-    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de). Another poster presented at the [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) workshop."
+    description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de) [[1](/research#bib-spectral-graph-pruning)], and a workshop poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) [[2](/research#bib-gnns-getting-comfy)]."
     type: [publication]
     event_name: neurips24
   - date: June 2024

@@ -1,4 +1,23 @@
 list:
+- title: "Prune to Protect: Faster Training and Enhanced Privacy by Dynamic Data Pruning"
+  author_array: [Chinmay Joshi, Advait Gadhikar, Celia Rubio-Madrigal, Aneet Kumar Dutta, Mridula Singh, Rebekka Burkholz]
+  type: article
+  journal: Workshop on The Impact of Memorization on Trustworthy Foundation Models (MemFM) @ ICML
+  year: 2026
+  url: https://openreview.net/forum?id=IFnzabrAbl
+  img: prune-to-protect.png
+  abstract: "Deep networks memorize parts of their training data, exposing them to privacy attacks such as membership inference. The most vulnerable samples are often hard-to-learn tail examples: they are fitted late, carry high information for generalization, and are difficult to protect without sacrificing performance. We show that this privacy–utility tension can be mitigated by learning such samples earlier. To this end, we propose Weighted Loss InfoBatch (WLIB), which dynamically prunes easy samples while re-weighting hard ones according to sample-wise pruning ratios. By adjusting the influence of informative samples throughout training, WLIB jointly reduces memorization, improves robustness to membership inference attacks, and speeds up optimization. Extensive experiments demonstrate that WLIB achieves a favorable combination of privacy, utility, and training efficiency."
+
+- title: "Linear GCNs Need Better Bias, Not More Expressive Power"
+  author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
+  type: article
+  journal: "Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML"
+  year: 2026
+  url: https://openreview.net/forum?id=cUJMrMzYVG
+  first_author: true
+  abstract: "Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information, yielding Weisfeiler–Lehman-level expressive power. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts."
+  img: linear-gcns.png
+
 - title: "Fixed Aggregation Features Can Rival GNNs"
   author_array: [Celia Rubio-Madrigal, Rebekka Burkholz]
   type: article
@@ -8,7 +27,6 @@ list:
   arxiv: 2601.19449
   first_author: true
   abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks—often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
-  categories: [cs.ML, cs.CN]
   img: fixed-aggregation-features.png
   code: https://github.com/celrm/fixed-aggregation-features
 
@@ -21,7 +39,6 @@ list:
   arxiv: "2506.02630"
   abstract: "Understanding the implicit bias of optimization algorithms is key to explaining and improving the generalization of deep models. The hyperbolic implicit bias induced by pointwise overparameterization promotes sparsity, but also yields a small inverse Riemannian metric near zero, slowing down parameter movement and impeding meaningful parameter sign flips. To overcome this obstacle, we propose Hyperbolic Aware Minimization (HAM), which alternates a standard optimizer step with a lightweight hyperbolic mirror step. The mirror step incurs less compute and memory than pointwise overparameterization, reproduces its beneficial hyperbolic geometry for feature learning, and mitigates the small–inverse-metric bottleneck. Our characterization of the implicit bias in the context of underdetermined linear regression provides insights into the mechanism how HAM consistently increases performance --even in the case of dense training, as we demonstrate in experiments with standard vision benchmarks. HAM is especially effective in combination with different sparsification methods, advancing the state of the art."
   img: ham-hyperbolic-step.png
-  categories: [cs.ML]
 
 - title: "Boosting for Predictive Sufficiency"
   author_array: [Abbavaram Gowtham Reddy, Rajeev Verma, Celia Rubio-Madrigal, Krikamol Muandet, Rebekka Burkholz]
@@ -32,7 +49,6 @@ list:
   arxiv: 
   abstract: "Out-of-distribution (OOD) generalization is a defining hallmark of truly robust and reliable machine learning systems. Recently, it has been empirically observed that existing OOD generalization methods often underperform on real-world tabular data, where hidden confounding shifts drive distribution changes that boosting models handle more effectively. Part of boosting’s success is attributed to variance reduction, handling missing variables, feature selection, and connections to multicalibration. This paper uncovers a crucial reason behind its success in OOD generalization: boosting’s ability to infer stable environments robust to hidden confounding shifts and maximize predictive performance within those environments. This paper introduces an information-theoretic notion called $\alpha$-predictive sufficiency and formalizes its link to OOD generalization under hidden confounding. We show that boosting implicitly identifies suitable environments and produces an $\alpha$-predictive sufficient predictor. We validate our theoretical results through synthetic and real-world experiments and show that boosting achieves robust performance by identifying these environments and maximizing the association between predictions and true outcomes."
   img: predictive-sufficiency.png
-  categories: [cs.ML]
 
 - title: "When Shift Happens - Confounding Is to Blame"
   author_array: [Abbavaram Gowtham Reddy, Celia Rubio-Madrigal, Rebekka Burkholz, Krikamol Muandet]
@@ -43,7 +59,6 @@ list:
   arxiv: 2505.21422
   abstract: "Distribution shifts introduce uncertainty that undermines the robustness and generalization capabilities of machine learning models. While conventional wisdom suggests that learning causal-invariant representations enhances robustness to such shifts, recent empirical studies present a counterintuitive finding: (i) empirical risk minimization (ERM) can rival or even outperform state-of-the-art out-of-distribution (OOD) generalization methods, and (ii) OOD generalization performance improves when all available covariates, including non-causal ones, are utilized. We present theoretical and empirical explanations that attribute this phenomenon to hidden confounding. Shifts in hidden confounding induce changes in data distributions that violate assumptions commonly made by existing approaches. Under such conditions, we prove that generalization requires learning environment-specific relationships, rather than relying solely on invariant ones. Furthermore, we explain why models augmented with non-causal but informative covariates can mitigate the challenges posed by hidden confounding shifts. These findings offer new theoretical insights and practical guidance, serving as a roadmap for future research on OOD generalization and principled covariate-selection strategies."
   img: when-shift-happens.png
-  categories: [cs.ML]
 
 - title: "GNNs Getting ComFy: Community and Feature Similarity Guided Rewiring"
   author_array: [Celia Rubio-Madrigal*, Adarsh Jamadandi*, Rebekka Burkholz]
@@ -54,9 +69,8 @@ list:
   arxiv: 2502.04891
   abstract: "Maximizing the spectral gap through graph rewiring has been proposed to enhance the performance of message-passing graph neural networks (GNNs) by addressing over-squashing. However, as we show, minimizing the spectral gap can also improve generalization. To explain this, we analyze how rewiring can benefit GNNs within the context of stochastic block models. Since spectral gap optimization primarily influences community strength, it improves performance when the community structure aligns with node labels. Building on this insight, we propose three distinct rewiring strategies that explicitly target community structure, node labels, and their alignment: (a) community structure-based rewiring (ComMa), a more computationally efficient alternative to spectral gap optimization that achieves similar goals; (b) feature similarity-based rewiring (FeaSt), which focuses on maximizing global homophily; and (c) a hybrid approach (ComFy), which enhances local feature similarity while preserving community structure to optimize label-community alignment. Extensive experiments confirm the effectiveness of these strategies and support our theoretical insights."
   code: https://github.com/relationalml/comfy
-  img: small-comfy.png
+  img: gnns-getting-comfy.png
   poster: ComFy__poster_ICLR25.pdf
-  categories: [cs.ML, cs.CN]
   first_author: true
 
 - title: "Spectral Graph Pruning Against Over-Squashing and Over-Smoothing"
@@ -68,9 +82,8 @@ list:
   arxiv: 2404.04612
   abstract: "Message Passing Graph Neural Networks are known to suffer from two problems that are sometimes believed to be diametrically opposed: over-squashing and over-smoothing. The former results from topological bottlenecks that hamper the information flow from distant nodes and are mitigated by spectral gap maximization, primarily, by means of edge additions. However, such additions often promote over-smoothing that renders nodes of different classes less distinguishable. Inspired by the Braess phenomenon, we argue that deleting edges can address over-squashing and over-smoothing simultaneously. This insight explains how edge deletions can improve generalization, thus connecting spectral gap optimization to a seemingly disconnected objective of reducing computational resources by pruning graphs for lottery tickets. To this end, we propose a computationally effective spectral gap optimization framework to add or delete edges and demonstrate its effectiveness on the long range graph benchmark and on larger heterophilous datasets."
   code: https://github.com/relationalml/spectralpruningbraess
-  img: small-spectral.png
+  img: spectral-graph-pruning.png
   poster: Spectral_Pruning__poster_NeurIPS24.pdf
-  categories: [cs.ML, cs.CN]
   first_author: true
 
 - title: Rendering string diagrams recursively
@@ -83,7 +96,6 @@ list:
   abstract: "String diagrams are a graphical language used to represent processes that can be composed sequentially or in parallel, which correspond graphically to horizontal or vertical juxtaposition. In this paper we demonstrate how to compute the layout of a string diagram by folding over its algebraic representation in terms of sequential and parallel composition operators. The algebraic representation can be seen as a term of a free monoidal category or a proof tree for a small fragment of linear logic. This contrasts to existing non-compositional approaches that use graph layout techniques. The key innovation is storing the diagrams in binary space-partition trees, maintaining a right-trapezoidal shape for the diagram's outline as an invariant. We provide an implementation in Haskell, using an existing denotational graphics library called Diagrams. Our renderer also supports adding semantics to diagrams to serve as a compiler, with matrix algebra used as an example."
   code: https://github.com/celrm/stringdiagrams
   img: rendering-string-diagrams.png
-  categories: [math.CT, cs.CG]
   preprint: true
 
 - title: Analysis of a neural network for the identification of complex Boolean functions
@@ -96,12 +108,4 @@ list:
   abstract: "The goal of this work is to propose a possible long-term strategy to address the P vs. NP problem, based on studying class P/poly and Boolean circuit complexity. The main peculiarity of our strategy is that it will try to attain theoretical knowledge though empirical means. To do this we will use neural networks, and we will analyze both their structure and their performance. With the knowledge obtained we can either confirm, support or refute our theoretical hypotheses; or even formulate new ones.On the one hand, we will formalize notions related to the repetitiveness of Boolean functions, and we will define metrics associated with them under the assumption that simpler functions are more repetitive. On the other hand, we will try to find patterns in the weights of a neural network trained with the truth tables of some Boolean functions, which classifies them according to the size of the minimum circuit that computes them. Finally, by training more neural networks, we will analyze how the identified patterns and repeatability metrics behave as classifiers when put against truth tables."
   code: https://github.com/celrm/tfg
   img: analysis-of-a-nn.png
-  categories: [cs.CC, cs.ML]
   preprint: true
-
-categories:
-- cs.ML: Machine Learning
-- math.CN: Complex Networks
-- cs.CG: Computational Geometry
-- cs.CC: Computational Complexity
-- math.CT: Category Theory

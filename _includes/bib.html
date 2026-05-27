@@ -1,5 +1,5 @@
 <!-- _layouts/bib.html -->
-  <div class="row" id = "bib" categories="{{ entry.categories | join: ',' }}">
+  <div class="row" id = "bib-{{ entry.img | remove: '.png' }}" categories="{{ entry.categories | join: ',' }}">
         <div class="preview">
           {%- if entry.img -%}
             {% if entry.img contains '://' -%}
