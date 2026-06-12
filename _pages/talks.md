@@ -36,7 +36,7 @@ categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last
     
 <span>{{ event.date }}</span>: {{ event.place | markdownify | remove: '<p>' | remove: '</p>' }}
     {% if event.url %}
-        [<a href="{{ event.url | prepend: legenditem.folder }}">{{ event.type | capitalize }}</a>]
+        (see <a href="{{ event.url | prepend: legenditem.folder }}">{{ event.type | split: ' ' | last }}</a>)
     {% endif %}
     
 {% endif %}{% endfor %}
@@ -46,6 +46,18 @@ categories="{% for event in item.events %}{{ event.type }}{% unless forloop.last
 </ul>
 {% endfor %}
 
+
+
+# Legend
+
+<ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: row; gap: 2em; flex-wrap: wrap;">
+{% for legenditem in site.data.talks.legend %}
+  <li><span style="border: 1px solid var(--color-text); padding: 4px; border-radius: 5px; font-size: 0.6em; 
+  vertical-align: middle; min-width: 13px; width: 1em; height: 1em; text-align: center; margin-right: 0.1em;
+  " class="{{ legenditem.icon }}"></span>
+  {{ legenditem.name | capitalize }}</li>
+{% endfor %}
+</ul>
 
 
 <script>

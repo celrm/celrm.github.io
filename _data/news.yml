@@ -12,6 +12,10 @@ list:
     new: true
   - date: June 2026
     type: [event]
+    description: "Invited talk at the [AI Security Afternoon](https://www.ais-saarland.org/ai-security) at Universität des Saarlandes."
+    new: true
+  - date: June 2026
+    type: [event]
     description: "An oral and a poster at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/))."
     new: true
     future: true
@@ -41,7 +45,7 @@ list:
     event_name: gtml25
   - date: October 2025
     type: [event]
-    description: "Invited talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. [[Video](https://youtu.be/L-EH9iys8gc)]"
+    description: "Invited talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. ([talk](https://youtu.be/L-EH9iys8gc))"
     new: true
   - date: September 2025
     type: [event]
@@ -63,7 +67,7 @@ list:
     event_name: iclr25
   - date: February 2025
     type: [event]
-    description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. [[Video](https://youtu.be/fw8VBEBdWQY)]"
+    description: "Talk for [Cohere Labs](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025) - Open Science Community. ([talk](https://youtu.be/fw8VBEBdWQY))"
   - date: December 2024
     description: "First-author paper at NeurIPS'24: [*Spectral graph pruning against over-squashing and over-smoothing*](https://openreview.net/forum?id=EMkrwJY2de) [[1](/research#bib-spectral-graph-pruning)], and a workshop poster at [WiML](https://sites.google.com/wimlworkshop.org/wiml-2024/program) [[2](/research#bib-gnns-getting-comfy)]."
     type: [publication]
@@ -122,7 +126,7 @@ list:
     description: "Sci-fi short story [*akesi li kama*](https://webs.ucm.es/BUCM/revcul/sci-fdi/276/art4284.php) in the Sci·Fdi journal."
   - date: September 2021  
     type: [work]
-    description: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. [[Video](https://www.youtube.com/watch?v=_fYNNbpjrC0)]"
+    description: "Research internship at Instituto de Ciencias Matemáticas (ICMAT): *Differential geometry methods in machine learning applications* with David Martín de Diego. ([interview](https://www.youtube.com/watch?v=_fYNNbpjrC0))"
   - date: September 2019
     type: [publication]
     description: "Four outreach articles in DIVULGAMAT: [*Serialismo y matemáticas (I)*](https://web.archive.org/web/20200808125114/http://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18209&directory=67), [*Serialismo y matemáticas (II)*](https://web.archive.org/web/20230208100644/https://divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18227&directory=67), [*Serialismo y matemáticas (III)*](https://web.archive.org/web/20240703234240/https://www.divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18258&directory=67), and [*Re-escalando música*](https://web.archive.org/web/20240704095954/https://www.divulgamat.net/divulgamat15/index.php?option=com_content&view=article&id=18273&directory=67)."
@@ -133,15 +137,19 @@ list:
 - date: "past - 2017"
   description: "Graduated from High School of Excellence (IES San Mateo) with Honours."
   details:
-  - date: July 2017
+  - date: October 2017
     type: [award]
-    description: "Premio Extraordinario de Bachillerato de la Comunidad de Madrid."
+    description: "[Premio Extraordinario de Bachillerato](https://www.bocm.es/boletin/CM_Orden_BOCM/2017/11/03/BOCM-20171103-35.PDF) de la Comunidad de Madrid."
   - date: April 2017
     type: [event]
-    description: "Represented Spain at [EGMO'17](https://www.egmo.org/people/person933/) in Switzerland."
+    description: "Represented Spain at the European Girls' Mathematical Olympiad ([EGMO'17](https://www.egmo.org/people/person933/)) in Switzerland."
   - date: May 2016
     type: [leisure]
-    description: "Professional Music Degree in Baroque Recorder at Conservatorio Profesional de Música Arturo Soria."
+    description: "Professional Music Degree in Recorder at Conservatorio Profesional de Música Arturo Soria. 
+      ([a](https://www.youtube.com/watch?v=FD4ifQePUGI&t=6712s) 
+      [b](https://musicaantiguaarturosoria.blogspot.com/2014/04/) 
+      [c](https://www.rtve.es/play/audios/musica-joven/musica-joven-musica-antigua-conservatorio-profesional-arturo-soria-12-01-14/2303127/)
+      [d](https://rjb.csic.es/evento/per-ogni-sorti-di-stromenti/))" 
 
 legend:
 - name: publication

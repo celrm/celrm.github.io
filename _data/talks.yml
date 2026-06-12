@@ -1,4 +1,9 @@
 list:
+- title: "When do simple models win? Lessons from graph and tabular ML [[3](/research#bib-fixed-aggregation-features), [4](/research#bib-linear-gcns)]"
+  events: 
+  - place: "[AI Security Afternoon](https://www.ais-saarland.org/ai-security) in Saarbrücken, Germany."
+    date: 19.06.26
+    type: seminar talk
 - title: "Linear GCNs need better bias, not more expressive power [[4](/research#bib-linear-gcns)]"
   events: 
   - place: "Workshop on Graph Foundation Models ([GFM](https://sites.google.com/view/gfmicml-2026)) at ICML'26 in Seoul, South Korea."
@@ -12,14 +17,14 @@ list:
     url: FAF__poster_ICML26.pdf
   - place: "Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid, Spain. Oral presentation."
     date: 08.06.26
-    type: talk 
+    type: contributed talk 
   - place: CISPA Machine Learning Day -- internal event.
     date: 26.05.26
     type: poster
     event_name: cispamlday26
-  - place: CISPA ML Seminar. Invited talk.
+  - place: CISPA ML Seminar.
     date: 20.05.26
-    type: talk
+    type: seminar talk
     event_name: cispaml26
   - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/posters/)), Recent Spotlight Track, in Tübingen, Germany."
     date: 23.03.26
@@ -35,14 +40,14 @@ list:
     type: poster 
 - title: "Rewiring Graph Neural Networks: Less is more and structure matters [[1](/research#bib-spectral-graph-pruning), [2](/research#bib-gnns-getting-comfy)]"
   events: 
-  - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria. Invited talk."
+  - place: "Seminar of the [TUWien Machine Learning Research Unit](https://ml-tuw.github.io/ruml_seminar/) in Vienna, Austria."
     date: 27.05.25
-    type: talk
+    type: seminar talk
     event_name: tuwien25
   - place: "[Cohere For AI](https://cohere.com/events/cohere-for-ai-Celia-Rubio-Madrigal-2025): Open Science community talk."
     date: 13.02.25
     url: https://youtu.be/fw8VBEBdWQY
-    type: talk
+    type: seminar talk
     event_name: 
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring [[2](/research#bib-gnns-getting-comfy)]"
   events: 
@@ -56,15 +61,15 @@ list:
     event_name: cpal26
   - place: "Workshop on Geometry, Topology, and Machine Learning ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025)) in Leipzig, Germany. Lightning talk."
     date: 13.11.25
-    type: talk
+    type: contributed talk
     event_name: gtml25
   - place: "Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group."
     date: 29.10.25
     url: https://youtu.be/L-EH9iys8gc
-    type: talk
-  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
+    type: seminar talk
+  - place: "Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
-    type: talk
+    type: contributed talk
     event_name: mlg25
   - place: "ICLR'25 in Singapore."
     date: 26.04.25
@@ -82,13 +87,13 @@ list:
     event_name: preneurips24
 - title: "Spectral graph pruning against over-squashing and over-smoothing [[1](/research#bib-spectral-graph-pruning)]"
   events: 
-  - place: "International Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
+  - place: "Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/)) in Porto, Portugal. Lightning talk and poster."
     date: 15.09.25
-    type: talk
+    type: contributed talk
     event_name: mlg25
   - place: "International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/)) in Maastricht, Netherlands. Lightning talk."
     date: "05.06.25"
-    type: talk
+    type: contributed talk
     event_name: netsci25
   - place: "NeurIPS'24 in Vancouver, Canada."
     date: 11.12.24
@@ -100,14 +105,22 @@ list:
     type: poster 
     event_name: preneurips24
   - place: "Helmholtz AI Conference: AI for Science ([HAICON](https://web.archive.org/web/20250521124100/https://eventclass.it/haic2024/scientific/external-program/session?s=S-05a)) in Düsseldorf, Germany."
-    type: talk
+    type: contributed talk
     url: https://vimeo.com/984759166
     date: 14.06.24
     event_name: haicon24
 
 legend:
-- name: talk
+- name: contributed talk
   icon: fa-solid fa-comment
+  # icon: fa-regular fa-comment
+- name: seminar talk
+  icon: fa-solid fa-comments
+  # icon: fa-solid fa-book-open-reader
+  # icon: fa-solid fa-person-chalkboard
 - name: poster
-  icon: fa-solid fa-chalkboard-user
+  icon: fa-solid fa-note-sticky
+  # icon: fa-regular fa-note-sticky
+  # icon: fa-regular fa-image
+  # icon: fa-solid fa-chalkboard
   folder: /assets/pdf/
