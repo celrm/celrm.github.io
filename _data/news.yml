@@ -12,11 +12,11 @@ list:
     new: true
   - date: June 2026
     type: [event]
-    description: "Invited talk at the [AI Security Afternoon](https://www.ais-saarland.org/ai-security) at Universität des Saarlandes."
+    description: "Invited talk at the [AI Security Afternoon](https://www.linkedin.com/posts/ai-safety-saarland_we-are-hosting-the-first-ai-security-afternoon-activity-7472395960749494272-8iD_) at Universität des Saarlandes."
     new: true
   - date: June 2026
     type: [event]
-    description: "An oral and a poster at the Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/))."
+    description: "An oral and a poster at the Graph Signal Processing Workshop ([GSP](https://web.archive.org/web/20260610084349/https://gspworkshop.org/schedule/))."
     new: true
     future: true
   - date: April 2026

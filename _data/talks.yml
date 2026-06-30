@@ -1,23 +1,34 @@
 list:
 - title: "When do simple models win? Lessons from graph and tabular ML [[3](/research#bib-fixed-aggregation-features), [4](/research#bib-linear-gcns)]"
   events: 
-  - place: "[AI Security Afternoon](https://www.ais-saarland.org/ai-security) in Saarbrücken, Germany."
+  - place: "[AI Security Afternoon](https://www.linkedin.com/posts/ai-safety-saarland_we-are-hosting-the-first-ai-security-afternoon-activity-7472395960749494272-8iD_) in Saarbrücken, Germany."
     date: 19.06.26
     type: seminar talk
+    event_name: aisecurity26
 - title: "Linear GCNs need better bias, not more expressive power [[4](/research#bib-linear-gcns)]"
   events: 
   - place: "Workshop on Graph Foundation Models ([GFM](https://sites.google.com/view/gfmicml-2026)) at ICML'26 in Seoul, South Korea."
     date: 10.07.26
     type: poster
+    url: Distilinear__poster_ICML26_workshop.pdf
+  - place: "[ELLIS Pre-ICML'26](https://lacoco-lab.github.io/events/PreICML26/) in Saarbrücken, Germany."
+    date: 30.06.26
+    type: poster 
+    event_name: preicml26
 - title: "Fixed aggregation features can rival GNNs [[3](/research#bib-fixed-aggregation-features)]"
   events: 
   - place: "ICML'26 in Seoul, South Korea."
-    date: 06.07.26
+    date: 09.07.26
     type: poster
     url: FAF__poster_ICML26.pdf
-  - place: "Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid, Spain. Oral presentation."
-    date: 08.06.26
+  - place: "[ELLIS Pre-ICML'26](https://lacoco-lab.github.io/events/PreICML26/) in Saarbrücken, Germany."
+    date: 30.06.26
+    type: poster 
+    event_name: preicml26
+  - place: "Graph Signal Processing Workshop ([GSP](https://web.archive.org/web/20260610084349/https://gspworkshop.org/schedule/)) in Madrid, Spain. Oral presentation."
+    date: 10.06.26
     type: contributed talk 
+    event_name: gsp26
   - place: CISPA Machine Learning Day -- internal event.
     date: 26.05.26
     type: poster
@@ -51,10 +62,10 @@ list:
     event_name: 
 - title: "GNNs getting ComFy: Community and feature similarity guided rewiring [[2](/research#bib-gnns-getting-comfy)]"
   events: 
-  - place: "Graph Signal Processing Workshop ([GSP](https://gspworkshop.org/2026/)) in Madrid, Spain."
-    date: 08.06.26
+  - place: "Graph Signal Processing Workshop ([GSP](https://web.archive.org/web/20260610084349/https://gspworkshop.org/schedule/)) in Madrid, Spain."
+    date: 09.06.26
     type: poster 
-    event_name: 
+    event_name: gsp26
   - place: "Conference on Parsimony and Learning ([CPAL](https://cpal.cc/posters/)), Recent Spotlight Track, in Tübingen, Germany."
     date: 23.03.26
     type: poster 

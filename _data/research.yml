@@ -109,3 +109,12 @@ list:
   code: https://github.com/celrm/tfg
   img: analysis-of-a-nn.png
   preprint: true
+
+- title: akesi li kama
+  author_array: [Celia Rubio-Madrigal]
+  type: article
+  journal: Short story published in Sci-FdI. ISSN 1989-8363. (27):6-8
+  year: 2022
+  url: https://hdl.handle.net/20.500.14352/123288
+  img: akesi-li-kama.png
+  preprint: true
