@@ -8,8 +8,9 @@ list:
     new: true
   - date: July 2026
     type: [publication]
-    description: "First-author paper at ICML'26: [*Fixed Aggregation Features can rival GNNs*](https://openreview.net/forum?id=gSZhNPp103) [[3](/research#bib-fixed-aggregation-features)], and two workshop posters at [GFM](/research#bib-linear-gcns) and [MemFM](/research#bib-prune-to-protect). I was also selected as a Gold Reviewer (25%)."
+    description: "First-author paper at ICML'26: [*Fixed aggregation features can rival GNNs*](https://openreview.net/forum?id=gSZhNPp103) [[3](/research#bib-fixed-aggregation-features)], and two workshop posters at [GFM](/research#bib-linear-gcns) and [MemFM](/research#bib-prune-to-protect). I was also selected as a Gold Reviewer (25%)."
     new: true
+    future: true
   - date: June 2026
     type: [event]
     description: "Invited talk at the [AI Security Afternoon](https://www.linkedin.com/posts/ai-safety-saarland_we-are-hosting-the-first-ai-security-afternoon-activity-7472395960749494272-8iD_) at Universität des Saarlandes."
@@ -18,7 +19,6 @@ list:
     type: [event]
     description: "An oral and a poster at the Graph Signal Processing Workshop ([GSP](https://web.archive.org/web/20260610084349/https://gspworkshop.org/schedule/))."
     new: true
-    future: true
   - date: April 2026
     type: [publication]
     description: "Three co-authored papers at ICLR'26. I was also selected among the Top 200 Reviewers (1%)."
@@ -36,26 +36,21 @@ list:
   - date: December 2025
     type: [event]
     description: "Poster at [WiML](https://sites.google.com/wimlworkshop.org/wimlworkshopneurips2025/program) @ NeurIPS'25 [[3](/research#bib-fixed-aggregation-features)]."
-    new: true
     event_name: wiml25
   - date: November 2025
     type: [event]
     description: "Lightning talk at the Geometry, Topology, and Machine Learning Workshop ([GTML](https://www.mis.mpg.de/events/series/workshop-on-geometry-topology-and-machine-learning-gtml-2025))."
-    new: true
     event_name: gtml25
   - date: October 2025
     type: [event]
     description: "Invited talk at the Graph Learning on Wednesdays ([GLOW](https://sites.google.com/view/graph-learning-on-weds/events)) reading group. ([talk](https://youtu.be/L-EH9iys8gc))"
-    new: true
   - date: September 2025
     type: [event]
     description: "Two lightning talks at the Workshop on Mining and Learning with Graphs ([MLG](https://mlg-europe.github.io/2025/))."
-    new: true
     event_name: mlg25
   - date: June 2025
     type: [event]
     description: "Lightning talk at the International Conference on Network Science ([NetSci](https://netsci2025.github.io/lightnings/thursday-lightnings/))."
-    new: true
     event_name: netsci25
   - date: May 2025
     type: [event]
