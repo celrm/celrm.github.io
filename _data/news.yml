@@ -21,7 +21,7 @@ list:
     new: true
   - date: April 2026
     type: [publication]
-    description: "Three co-authored papers at ICLR'26. I was also selected among the Top 200 Reviewers (1%)."
+    description: "Three co-authored papers at ICLR'26 [[a](/research#bib-when-shift-happens) [b](/research#bib-predictive-sufficiency) [c](/research#bib-ham-hyperbolic-step)]. I was also selected among the Top 200 Reviewers (1%)."
     new: true
   - date: March 2026
     type: [event]
@@ -140,11 +140,11 @@ list:
     description: "Represented Spain at the European Girls' Mathematical Olympiad ([EGMO'17](https://www.egmo.org/people/person933/)) in Switzerland."
   - date: May 2016
     type: [leisure]
-    description: "Professional Music Degree in Recorder at Conservatorio Profesional de Música Arturo Soria. 
-      ([a](https://www.youtube.com/watch?v=FD4ifQePUGI&t=6712s) 
+    description: "Professional Music Degree in Recorder at Conservatorio Profesional de Música Arturo Soria 
+      [[a](https://www.youtube.com/watch?v=FD4ifQePUGI&t=6712s) 
       [b](https://musicaantiguaarturosoria.blogspot.com/2014/04/) 
       [c](https://www.rtve.es/play/audios/musica-joven/musica-joven-musica-antigua-conservatorio-profesional-arturo-soria-12-01-14/2303127/)
-      [d](https://rjb.csic.es/evento/per-ogni-sorti-di-stromenti/))" 
+      [d](https://rjb.csic.es/evento/per-ogni-sorti-di-stromenti/)]." 
 
 legend:
 - name: publication
