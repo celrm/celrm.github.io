@@ -10,7 +10,6 @@ list:
   - place: "Workshop on Graph Foundation Models ([GFM](https://sites.google.com/view/gfmicml-2026)) at ICML'26 in Seoul, South Korea."
     date: 10.07.26
     type: poster
-    url: Distilinear__poster_ICML26_workshop.pdf
   - place: "[ELLIS Pre-ICML'26](https://lacoco-lab.github.io/events/PreICML26/) in Saarbrücken, Germany."
     date: 30.06.26
     type: poster 
@@ -21,6 +20,7 @@ list:
     date: 09.07.26
     type: poster
     url: FAF__poster_ICML26.pdf
+    event_name: icml26
   - place: "[ELLIS Pre-ICML'26](https://lacoco-lab.github.io/events/PreICML26/) in Saarbrücken, Germany."
     date: 30.06.26
     type: poster 

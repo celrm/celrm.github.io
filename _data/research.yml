@@ -2,9 +2,9 @@ list:
 - title: "Prune to Protect: Faster Training and Enhanced Privacy by Dynamic Data Pruning"
   author_array: [Chinmay Joshi, Advait Gadhikar, Celia Rubio-Madrigal, Aneet Kumar Dutta, Mridula Singh, Rebekka Burkholz]
   type: article
-  journal: Workshop on The Impact of Memorization on Trustworthy Foundation Models (MemFM) @ ICML
+  journal: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS)"
   year: 2026
-  url: https://openreview.net/forum?id=IFnzabrAbl
+  url: https://openreview.net/forum?id=aqIbhSL3JS
   img: prune-to-protect.png
   abstract: "Deep networks memorize parts of their training data, exposing them to privacy attacks such as membership inference. The most vulnerable samples are often hard-to-learn tail examples: they are fitted late, carry high information for generalization, and are difficult to protect without sacrificing performance. We show that this privacy–utility tension can be mitigated by learning such samples earlier. To this end, we propose Weighted Loss InfoBatch (WLIB), which dynamically prunes easy samples while re-weighting hard ones according to sample-wise pruning ratios. By adjusting the influence of informative samples throughout training, WLIB jointly reduces memorization, improves robustness to membership inference attacks, and speeds up optimization. Extensive experiments demonstrate that WLIB achieves a favorable combination of privacy, utility, and training efficiency."
 
@@ -14,7 +14,6 @@ list:
   journal: "Workshop on Graph Foundation Models: A New Era for Graph Machine Learning (GFM) @ ICML"
   year: 2026
   url: https://openreview.net/forum?id=cUJMrMzYVG
-  first_author: true
   abstract: "Do modern GNNs succeed because of architectural expressive power or because of implicit bias? We show that simple linear graph convolutions with sum aggregation and MLP classifiers can match the generalization performance of state-of-the-art graph learning methods. Theoretically, sum aggregation after a linear feature transformation can preserve neighborhood multiset information. Empirically, however, this potential is realized only through distillation from more complex GNN teachers. When trained from scratch, linear GCNs often fail to generalize. This reveals a gap between what simple models can express and what standard training selects. Our findings suggest that progress in graph learning may depend less on increasing expressiveness and more on controlling implicit bias, trainability, and model selection. Our experimental design provides a framework to distinguish these concepts."
   img: linear-gcns.png
 
@@ -25,7 +24,7 @@ list:
   year: 2026
   url: https://openreview.net/forum?id=gSZhNPp103
   arxiv: 2601.19449
-  first_author: true
+  selected: true
   abstract: "Graph neural networks (GNNs) are widely believed to excel at node representation learning through trainable neighborhood aggregations. We challenge this view by introducing Fixed Aggregation Features (FAFs), a training-free approach that transforms graph learning tasks into tabular problems. This simple shift enables the use of well-established tabular methods, offering strong interpretability and the flexibility to deploy diverse classifiers. Across 14 benchmarks, well-tuned multilayer perceptrons trained on FAFs rival or outperform state-of-the-art GNNs and graph transformers on 12 tasks—often using only mean aggregation. The only exceptions are the Roman Empire and Minesweeper datasets, which typically require unusually deep GNNs. To explain the theoretical possibility of non-trainable aggregations, we connect our findings to Kolmogorov–Arnold representations and discuss when mean aggregation can be sufficient. In conclusion, our results call for (i) richer benchmarks benefiting from learning diverse neighborhood aggregations, (ii) strong tabular baselines as standard, and (iii) employing and advancing tabular models for graph data to gain new insights into related tasks."
   img: fixed-aggregation-features.png
   code: https://github.com/celrm/fixed-aggregation-features
@@ -71,7 +70,7 @@ list:
   code: https://github.com/relationalml/comfy
   img: gnns-getting-comfy.png
   poster: ComFy__poster_ICLR25.pdf
-  first_author: true
+  selected: true
 
 - title: "Spectral Graph Pruning Against Over-Squashing and Over-Smoothing"
   author_array: [Adarsh Jamadandi*, Celia Rubio-Madrigal*, Rebekka Burkholz]
@@ -84,7 +83,7 @@ list:
   code: https://github.com/relationalml/spectralpruningbraess
   img: spectral-graph-pruning.png
   poster: Spectral_Pruning__poster_NeurIPS24.pdf
-  first_author: true
+  selected: true
 
 - title: Rendering string diagrams recursively
   author_array: [Celia Rubio-Madrigal, Jules Hedges]

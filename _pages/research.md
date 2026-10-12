@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Research
-titlealt: Publications
+titlealt: Selected publications
 permalink: /research/
 order: 2
 ---
-
-Click on the image previews for larger versions.
 
 <!-- <p id="filter">Filter by category:
 <select id="choosecategory">
@@ -17,8 +15,8 @@ Click on the image previews for larger versions.
 <ol class="bibliography">
 
 {% assign not_preprints = site.data.research.list | where: "preprint", nil %}
-{% assign first_author_published = not_preprints | where: "first_author", true %}
-{% for entry in first_author_published %}
+{% assign selected_published = not_preprints | where: "selected", true %}
+{% for entry in selected_published %}
 {% unless entry.preprint %}
 <li>
 {% include bib.html %}
@@ -26,16 +24,16 @@ Click on the image previews for larger versions.
 {% endunless %}
 {% endfor %}
 
-{% assign has_coauthors = false %}
+{% assign other_papers = false %}
 {% for entry in not_preprints %}
-  {% unless entry.first_author or entry.preprint %}
-    {% assign has_coauthors = true %}
+  {% unless entry.selected or entry.preprint %}
+    {% assign other_papers = true %}
   {% endunless %}
 {% endfor %}
-{% if has_coauthors %}
-<h3>Co-authored</h3>
+{% if other_papers %}
+<h3>Additional publications</h3>
 {% for entry in not_preprints %}
-  {% unless entry.first_author or entry.preprint %}
+  {% unless entry.selected or entry.preprint %}
     <li>
       {% include bib.html %}
     </li>
